@@ -1,0 +1,16 @@
+# Build artifacts
+/target/
+
+# Nix
+result
+result-*
+
+# direnv
+.direnv/
+
+# Editor
+*.swp
+*~
+
+# OS
+.DS_Store
