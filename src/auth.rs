@@ -34,17 +34,16 @@ pub fn auth() -> Result<Credentials, CliError> {
     info!("Starting browser-based OAuth flow");
     debug!("Client ID: {CLIENT_ID}, redirect: {REDIRECT_URI}, scopes: {SCOPES:?}");
 
-    let client =
-        librespot_oauth::OAuthClientBuilder::new(CLIENT_ID, REDIRECT_URI, SCOPES.to_vec())
-            .open_in_browser()
-            .build()
-            .map_err(|e| {
-                CliError::with_source(
-                    ExitCode::AuthError,
-                    format!("Failed to build OAuth client: {e}"),
-                    e.into(),
-                )
-            })?;
+    let client = librespot_oauth::OAuthClientBuilder::new(CLIENT_ID, REDIRECT_URI, SCOPES.to_vec())
+        .open_in_browser()
+        .build()
+        .map_err(|e| {
+            CliError::with_source(
+                ExitCode::AuthError,
+                format!("Failed to build OAuth client: {e}"),
+                e.into(),
+            )
+        })?;
 
     // The librespot-oauth library prints "Browse to: <url>" to stdout via println!.
     // Temporarily redirect stdout → stderr so only our JSON ends up on stdout.
@@ -100,16 +99,15 @@ pub async fn reauth(old: &Credentials) -> Result<Credentials, CliError> {
     info!("Refreshing access token using refresh_token");
     debug!("Old token expires_at: {}", old.expires_at);
 
-    let client =
-        librespot_oauth::OAuthClientBuilder::new(CLIENT_ID, REDIRECT_URI, SCOPES.to_vec())
-            .build()
-            .map_err(|e| {
-                CliError::with_source(
-                    ExitCode::AuthError,
-                    format!("Failed to build OAuth client for refresh: {e}"),
-                    e.into(),
-                )
-            })?;
+    let client = librespot_oauth::OAuthClientBuilder::new(CLIENT_ID, REDIRECT_URI, SCOPES.to_vec())
+        .build()
+        .map_err(|e| {
+            CliError::with_source(
+                ExitCode::AuthError,
+                format!("Failed to build OAuth client for refresh: {e}"),
+                e.into(),
+            )
+        })?;
 
     let new_token = client
         .refresh_token_async(&old.refresh_token)

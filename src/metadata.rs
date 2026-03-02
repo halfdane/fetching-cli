@@ -190,41 +190,68 @@ fn track_to_dto(t: &librespot_metadata::track::Track) -> TrackDto {
         album: TrackAlbumDto {
             uri: t.album.id.to_string(),
             name: t.album.name.clone(),
-            artists: t.album.artists.iter().map(|a| ArtistDto {
-                uri: a.id.to_string(),
-                name: a.name.clone(),
-            }).collect(),
-            covers: t.album.covers.iter().map(|img| ImageDto {
-                file_id: img.id.to_string(),
-                size: format!("{:?}", img.size),
-                width: img.width,
-                height: img.height,
-            }).collect(),
+            artists: t
+                .album
+                .artists
+                .iter()
+                .map(|a| ArtistDto {
+                    uri: a.id.to_string(),
+                    name: a.name.clone(),
+                })
+                .collect(),
+            covers: t
+                .album
+                .covers
+                .iter()
+                .map(|img| ImageDto {
+                    file_id: img.id.to_string(),
+                    size: format!("{:?}", img.size),
+                    width: img.width,
+                    height: img.height,
+                })
+                .collect(),
             date: t.album.date.to_string(),
             label: t.album.label.clone(),
-            external_ids: t.album.external_ids.iter().map(|e| ExternalIdDto {
-                external_type: e.external_type.clone(),
-                id: e.id.clone(),
-            }).collect(),
+            external_ids: t
+                .album
+                .external_ids
+                .iter()
+                .map(|e| ExternalIdDto {
+                    external_type: e.external_type.clone(),
+                    id: e.id.clone(),
+                })
+                .collect(),
         },
-        artists: t.artists.iter().map(|a| ArtistDto {
-            uri: a.id.to_string(),
-            name: a.name.clone(),
-        }).collect(),
-        artists_with_role: t.artists_with_role.iter().map(|a| ArtistWithRoleDto {
-            uri: a.id.to_string(),
-            name: a.name.clone(),
-            role: format!("{:?}", a.role),
-        }).collect(),
+        artists: t
+            .artists
+            .iter()
+            .map(|a| ArtistDto {
+                uri: a.id.to_string(),
+                name: a.name.clone(),
+            })
+            .collect(),
+        artists_with_role: t
+            .artists_with_role
+            .iter()
+            .map(|a| ArtistWithRoleDto {
+                uri: a.id.to_string(),
+                name: a.name.clone(),
+                role: format!("{:?}", a.role),
+            })
+            .collect(),
         number: t.number,
         disc_number: t.disc_number,
         duration_ms: t.duration,
         popularity: t.popularity,
         is_explicit: t.is_explicit,
-        external_ids: t.external_ids.iter().map(|e| ExternalIdDto {
-            external_type: e.external_type.clone(),
-            id: e.id.clone(),
-        }).collect(),
+        external_ids: t
+            .external_ids
+            .iter()
+            .map(|e| ExternalIdDto {
+                external_type: e.external_type.clone(),
+                id: e.id.clone(),
+            })
+            .collect(),
         files: audio_files_to_dto(&t.files),
         previews: audio_files_to_dto(&t.previews),
         alternatives: t.alternatives.iter().map(|u| u.to_string()).collect(),
@@ -258,10 +285,7 @@ pub struct AlbumDto {
     pub tracks: Vec<TrackDto>,
 }
 
-async fn album_to_dto(
-    a: &librespot_metadata::album::Album,
-    session: &Session,
-) -> AlbumDto {
+async fn album_to_dto(a: &librespot_metadata::album::Album, session: &Session) -> AlbumDto {
     let mut tracks = Vec::new();
     for track_uri in a.tracks() {
         match librespot_metadata::track::Track::get(session, track_uri).await {
@@ -273,33 +297,53 @@ async fn album_to_dto(
     AlbumDto {
         uri: a.id.to_string(),
         name: a.name.clone(),
-        artists: a.artists.iter().map(|ar| ArtistDto {
-            uri: ar.id.to_string(),
-            name: ar.name.clone(),
-        }).collect(),
+        artists: a
+            .artists
+            .iter()
+            .map(|ar| ArtistDto {
+                uri: ar.id.to_string(),
+                name: ar.name.clone(),
+            })
+            .collect(),
         album_type: format!("{:?}", a.album_type),
         label: a.label.clone(),
         date: a.date.to_string(),
         popularity: a.popularity,
-        covers: a.covers.iter().map(|img| ImageDto {
-            file_id: img.id.to_string(),
-            size: format!("{:?}", img.size),
-            width: img.width,
-            height: img.height,
-        }).collect(),
-        external_ids: a.external_ids.iter().map(|e| ExternalIdDto {
-            external_type: e.external_type.clone(),
-            id: e.id.clone(),
-        }).collect(),
-        discs: a.discs.iter().map(|d| DiscDto {
-            number: d.number,
-            name: d.name.clone(),
-            tracks: d.tracks.iter().map(|u| u.to_string()).collect(),
-        }).collect(),
-        copyrights: a.copyrights.iter().map(|c| CopyrightDto {
-            copyright_type: format!("{:?}", c.copyright_type),
-            text: c.text.clone(),
-        }).collect(),
+        covers: a
+            .covers
+            .iter()
+            .map(|img| ImageDto {
+                file_id: img.id.to_string(),
+                size: format!("{:?}", img.size),
+                width: img.width,
+                height: img.height,
+            })
+            .collect(),
+        external_ids: a
+            .external_ids
+            .iter()
+            .map(|e| ExternalIdDto {
+                external_type: e.external_type.clone(),
+                id: e.id.clone(),
+            })
+            .collect(),
+        discs: a
+            .discs
+            .iter()
+            .map(|d| DiscDto {
+                number: d.number,
+                name: d.name.clone(),
+                tracks: d.tracks.iter().map(|u| u.to_string()).collect(),
+            })
+            .collect(),
+        copyrights: a
+            .copyrights
+            .iter()
+            .map(|c| CopyrightDto {
+                copyright_type: format!("{:?}", c.copyright_type),
+                text: c.text.clone(),
+            })
+            .collect(),
         reviews: a.reviews.clone(),
         original_title: a.original_title.clone(),
         version_title: a.version_title.clone(),
@@ -489,12 +533,16 @@ fn episode_to_dto(e: &librespot_metadata::episode::Episode) -> EpisodeDto {
         show_name: e.show_name.clone(),
         language: e.language.clone(),
         is_explicit: e.is_explicit,
-        covers: e.covers.iter().map(|img| ImageDto {
-            file_id: img.id.to_string(),
-            size: format!("{:?}", img.size),
-            width: img.width,
-            height: img.height,
-        }).collect(),
+        covers: e
+            .covers
+            .iter()
+            .map(|img| ImageDto {
+                file_id: img.id.to_string(),
+                size: format!("{:?}", img.size),
+                width: img.width,
+                height: img.height,
+            })
+            .collect(),
         audio_files: audio_files_to_dto(&e.audio),
         audio_previews: audio_files_to_dto(&e.audio_previews),
         keywords: e.keywords.clone(),
@@ -532,17 +580,25 @@ fn show_to_dto(s: &librespot_metadata::show::Show) -> ShowDto {
         publisher: s.publisher.clone(),
         language: s.language.clone(),
         is_explicit: s.is_explicit,
-        covers: s.covers.iter().map(|img| ImageDto {
-            file_id: img.id.to_string(),
-            size: format!("{:?}", img.size),
-            width: img.width,
-            height: img.height,
-        }).collect(),
+        covers: s
+            .covers
+            .iter()
+            .map(|img| ImageDto {
+                file_id: img.id.to_string(),
+                size: format!("{:?}", img.size),
+                width: img.width,
+                height: img.height,
+            })
+            .collect(),
         episode_uris: s.episodes.iter().map(|u| u.to_string()).collect(),
-        copyrights: s.copyrights.iter().map(|c| CopyrightDto {
-            copyright_type: format!("{:?}", c.copyright_type),
-            text: c.text.clone(),
-        }).collect(),
+        copyrights: s
+            .copyrights
+            .iter()
+            .map(|c| CopyrightDto {
+                copyright_type: format!("{:?}", c.copyright_type),
+                text: c.text.clone(),
+            })
+            .collect(),
         keywords: s.keywords.clone(),
         media_type: format!("{:?}", s.media_type),
         is_audiobook: s.is_audiobook,
@@ -574,10 +630,7 @@ pub enum MetadataOutput {
 
 /// Fetch metadata for any Spotify URI/URL and return it as a
 /// [`MetadataOutput`] ready for JSON serialization.
-pub async fn fetch_metadata(
-    session: &Session,
-    input: &str,
-) -> Result<MetadataOutput, CliError> {
+pub async fn fetch_metadata(session: &Session, input: &str) -> Result<MetadataOutput, CliError> {
     let uri = parse_uri(input)?;
     info!("Fetching metadata for {uri}");
 
@@ -608,7 +661,11 @@ pub async fn fetch_metadata(
                         e.into(),
                     )
                 })?;
-            info!("Fetched album: {} ({} discs)", album.name, album.discs.len());
+            info!(
+                "Fetched album: {} ({} discs)",
+                album.name,
+                album.discs.len()
+            );
             Ok(MetadataOutput::Album(album_to_dto(&album, session).await))
         }
         "playlist" => {

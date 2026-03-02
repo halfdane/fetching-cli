@@ -127,14 +127,13 @@ pub async fn fetch_audio(
             )
         })?;
 
-    let format = find_format_for_file_id(&file_id, &audio_item.files, None)
-        .unwrap_or_else(|| {
-            warn!(
-                "Could not determine format for file_id {file_id_hex} from AudioItem; \
+    let format = find_format_for_file_id(&file_id, &audio_item.files, None).unwrap_or_else(|| {
+        warn!(
+            "Could not determine format for file_id {file_id_hex} from AudioItem; \
                  assuming OGG_VORBIS_320"
-            );
-            AudioFileFormat::OGG_VORBIS_320
-        });
+        );
+        AudioFileFormat::OGG_VORBIS_320
+    });
 
     info!("Resolved format: {format:?} for file_id {file_id_hex}");
 
