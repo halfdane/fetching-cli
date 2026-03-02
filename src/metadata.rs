@@ -39,7 +39,6 @@ pub fn normalise_uri(input: &str) -> Result<String, CliError> {
                 ),
             ));
         }
-
         return Ok(format!("spotify:{item_type}:{item_id}"));
     }
 
@@ -283,6 +282,24 @@ pub struct AlbumDto {
     pub version_title: String,
     pub type_str: String,
     pub tracks: Vec<TrackDto>,
+}
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    #[test]
+    fn parse_legacy_user_playlist_uri() {
+        let input = "spotify:user:halfdane1:playlist:1e0lJ5eD6xe07D5ooBXhQ9";
+
+        let uri = parse_uri(input).expect("legacy user playlist URI should parse");
+        let roundtrip = uri
+            .to_uri()
+            .expect("legacy user playlist URI should serialize");
+
+        assert_eq!(uri.item_type(), "playlist");
+        assert_eq!(roundtrip, input);
+    }
 }
 
 async fn album_to_dto(a: &librespot_metadata::album::Album, session: &Session) -> AlbumDto {
