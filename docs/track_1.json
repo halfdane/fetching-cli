@@ -1,0 +1,94 @@
+{
+  "type": "track",
+  "uri": "spotify:track:12l8e8JfVOgX7jQewjyNbU",
+  "name": "Theme from Flood",
+  "album": {
+    "uri": "spotify:album:7FwAtuhhWivxvK4aPgyyUD",
+    "name": "Flood",
+    "artists": [
+      {
+        "uri": "spotify:artist:6zB02lwP6L6ZH32nggQiJT",
+        "name": "They Might Be Giants"
+      }
+    ],
+    "covers": [
+      {
+        "file_id": "ab67616d00001e02e6c14f0dc854e7d3c7c40007",
+        "size": "DEFAULT",
+        "width": 300,
+        "height": 300
+      },
+      {
+        "file_id": "ab67616d00004851e6c14f0dc854e7d3c7c40007",
+        "size": "SMALL",
+        "width": 64,
+        "height": 64
+      },
+      {
+        "file_id": "ab67616d0000b273e6c14f0dc854e7d3c7c40007",
+        "size": "LARGE",
+        "width": 640,
+        "height": 640
+      }
+    ],
+    "date": "1990-01-02 0:00:00.0 +00:00:00",
+    "label": "Rhino",
+    "external_ids": []
+  },
+  "artists": [
+    {
+      "uri": "spotify:artist:6zB02lwP6L6ZH32nggQiJT",
+      "name": "They Might Be Giants"
+    }
+  ],
+  "artists_with_role": [
+    {
+      "uri": "spotify:artist:6zB02lwP6L6ZH32nggQiJT",
+      "name": "They Might Be Giants",
+      "role": "ARTIST_ROLE_MAIN_ARTIST"
+    }
+  ],
+  "number": 1,
+  "disc_number": 1,
+  "duration_ms": 27133,
+  "popularity": 7,
+  "is_explicit": false,
+  "external_ids": [
+    {
+      "external_type": "isrc",
+      "id": "USEE10181577"
+    }
+  ],
+  "files": [
+    {
+      "format": "OGG_VORBIS_96",
+      "file_id": "ab57c057ca5653a1bfa7e4fc911370c3a5acccef"
+    },
+    {
+      "format": "AAC_24",
+      "file_id": "9bbe4b9092d86a0a10ac2190923341c6a7622292"
+    },
+    {
+      "format": "OGG_VORBIS_160",
+      "file_id": "9e9796a90d088f238b0c20b746d4cdf799b5d009"
+    },
+    {
+      "format": "OGG_VORBIS_320",
+      "file_id": "c9d8f0694a62bcecb81e7bc552c1548c4a2e70e0"
+    }
+  ],
+  "previews": [
+    {
+      "format": "MP3_96",
+      "file_id": "4642248942b4816e51fda4c6ea6f4b01229ef675"
+    }
+  ],
+  "alternatives": [],
+  "tags": [],
+  "has_lyrics": true,
+  "language_of_performance": [
+    "en"
+  ],
+  "original_title": "Theme from Flood",
+  "version_title": ""
+}

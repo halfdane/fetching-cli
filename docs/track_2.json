@@ -1,0 +1,94 @@
+{
+  "type": "track",
+  "uri": "spotify:track:1lbsOispp7GJvNkoQEMTYL",
+  "name": "Kapitel 02 - in Amerika (Folge 014)",
+  "album": {
+    "uri": "spotify:album:7BLGgpfiTb4mhgcZ57wuzH",
+    "name": "Folge 14: in Amerika",
+    "artists": [
+      {
+        "uri": "spotify:artist:3t2iKODSDyzoDJw7AsD99u",
+        "name": "Bibi Blocksberg"
+      }
+    ],
+    "covers": [
+      {
+        "file_id": "ab67616d00001e02e1ed809b66792ae99ada8739",
+        "size": "DEFAULT",
+        "width": 300,
+        "height": 300
+      },
+      {
+        "file_id": "ab67616d00004851e1ed809b66792ae99ada8739",
+        "size": "SMALL",
+        "width": 64,
+        "height": 64
+      },
+      {
+        "file_id": "ab67616d0000b273e1ed809b66792ae99ada8739",
+        "size": "LARGE",
+        "width": 640,
+        "height": 640
+      }
+    ],
+    "date": "1984-01-01 0:00:00.0 +00:00:00",
+    "label": "Kiddinx/WM Germany",
+    "external_ids": []
+  },
+  "artists": [
+    {
+      "uri": "spotify:artist:3t2iKODSDyzoDJw7AsD99u",
+      "name": "Bibi Blocksberg"
+    }
+  ],
+  "artists_with_role": [
+    {
+      "uri": "spotify:artist:3t2iKODSDyzoDJw7AsD99u",
+      "name": "Bibi Blocksberg",
+      "role": "ARTIST_ROLE_MAIN_ARTIST"
+    }
+  ],
+  "number": 3,
+  "disc_number": 1,
+  "duration_ms": 55721,
+  "popularity": 35,
+  "is_explicit": false,
+  "external_ids": [
+    {
+      "external_type": "isrc",
+      "id": "DEB581508750"
+    }
+  ],
+  "files": [
+    {
+      "format": "OGG_VORBIS_96",
+      "file_id": "6901821837fee6aceaa825b1f74abb9317877b53"
+    },
+    {
+      "format": "OGG_VORBIS_320",
+      "file_id": "9f987fac1a0bf947b33400623817c4194fa42d17"
+    },
+    {
+      "format": "AAC_24",
+      "file_id": "b9e1afe53098c8ad3cbcc8804a6e2e2c67c5d1fc"
+    },
+    {
+      "format": "OGG_VORBIS_160",
+      "file_id": "6dc736b572be03b805d4eeb84a4b28719ba4e6b1"
+    }
+  ],
+  "previews": [
+    {
+      "format": "MP3_96",
+      "file_id": "d765cb3d56a442301bd9254bbfd0dc9b7a882408"
+    }
+  ],
+  "alternatives": [],
+  "tags": [],
+  "has_lyrics": false,
+  "language_of_performance": [
+    "de"
+  ],
+  "original_title": "Kapitel 02 - in Amerika (Folge 014)",
+  "version_title": ""
+}

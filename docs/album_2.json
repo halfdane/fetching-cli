@@ -1,0 +1,3637 @@
+{
+  "type": "album",
+  "uri": "spotify:album:7BLGgpfiTb4mhgcZ57wuzH",
+  "name": "Folge 14: in Amerika",
+  "artists": [
+    {
+      "uri": "spotify:artist:3t2iKODSDyzoDJw7AsD99u",
+      "name": "Bibi Blocksberg"
+    }
+  ],
+  "album_type": "ALBUM",
+  "label": "Kiddinx/WM Germany",
+  "date": "1984-01-01 0:00:00.0 +00:00:00",
+  "popularity": 49,
+  "covers": [
+    {
+      "file_id": "ab67616d00001e02e1ed809b66792ae99ada8739",
+      "size": "DEFAULT",
+      "width": 300,
+      "height": 300
+    },
+    {
+      "file_id": "ab67616d00004851e1ed809b66792ae99ada8739",
+      "size": "SMALL",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "file_id": "ab67616d0000b273e1ed809b66792ae99ada8739",
+      "size": "LARGE",
+      "width": 640,
+      "height": 640
+    }
+  ],
+  "external_ids": [
+    {
+      "external_type": "upc",
+      "id": "190295918392"
+    }
+  ],
+  "discs": [
+    {
+      "number": 1,
+      "name": "",
+      "tracks": [
+        "spotify:track:1r7RFu42iyhBqrzkEzqTHx",
+        "spotify:track:0flU1dgMhJqutXrzstz6ok",
+        "spotify:track:1lbsOispp7GJvNkoQEMTYL",
+        "spotify:track:7iwHdsmynOaIcWn6XEGvaP",
+        "spotify:track:3louAllim9T8b3oczWm4r2",
+        "spotify:track:5iLbRmFzVd5WaZz3dxKe6p",
+        "spotify:track:13z9o4NsfmVe6FA1kjtEPy",
+        "spotify:track:0tsztMvqHgpoIAjuW5my3Q",
+        "spotify:track:5NZEX8bOV2O6U3tNZumKSb",
+        "spotify:track:0CYhvJFDqLN5DhLMCpNyuW",
+        "spotify:track:5AZUV3QLNggz9rMAVEz1Kb",
+        "spotify:track:5KMm6vYv94ZhBQM5yXsDT3",
+        "spotify:track:4IG8vr1GnUkRvrwju8Qpw7",
+        "spotify:track:7LO2gDcPxElO3QylIqHKla",
+        "spotify:track:7AjXWtj3YRRrZ8lGUHomxz",
+        "spotify:track:0Iyhd0UGIoP3dxlz6R0Nja",
+        "spotify:track:1EDzaPhODh3ChHBcrZX7yB",
+        "spotify:track:0DOfITofir8VTk6EeHMJO6",
+        "spotify:track:5KZFGrqbXQjLkKzH7n0NfT",
+        "spotify:track:1wEj4KtL6lutB1mVv0jBJk",
+        "spotify:track:4sX84YPcxdFwk8cghNWZK2",
+        "spotify:track:0raK2OXhqwH8JtTG6nNfvJ",
+        "spotify:track:7m1obPjPhrxT5NCKZHsaZB",
+        "spotify:track:1RvngaI8odLrqKmBzAxxTT",
+        "spotify:track:2dG2FRggJLtebI727LkcCu",
+        "spotify:track:2OymlEHp4V2gSoPNVlYZXc",
+        "spotify:track:6zubVTEpkX4kpmnr9ebHEB",
+        "spotify:track:4ljBrSbHgDcezi7BkMcpnE",
+        "spotify:track:0OATP7kC7FzkPPFU4IN5oo",
+        "spotify:track:6oeIiZhCrCWZq8tvK2Q3jS",
+        "spotify:track:2I69iU4XxheBbP8eD4f1l4",
+        "spotify:track:35jGzxp3jBavrZmzJwGdL9",
+        "spotify:track:3w3Qn7zkzIopOICPxX7dgv",
+        "spotify:track:0znRfPon32r6qG23RFhFOp",
+        "spotify:track:1dWcnHOIG5ae1T8aSQUCbd",
+        "spotify:track:0AfZ49vUqHV17G6RxCDNvC",
+        "spotify:track:38ERLLCQjAJ2taTULDgPPJ",
+        "spotify:track:0VSealsLmLFiFtoHoqB7nN"
+      ]
+    }
+  ],
+  "copyrights": [
+    {
+      "copyright_type": "C",
+      "text": "© 2008 KIDDINX Studios GmbH, Berlin"
+    },
+    {
+      "copyright_type": "P",
+      "text": "℗ 1983 KIDDINX Studios GmbH, Berlin"
+    }
+  ],
+  "reviews": [],
+  "original_title": "Folge 14: in Amerika",
+  "version_title": "",
+  "type_str": "",
+  "tracks": [
+    {
+      "uri": "spotify:track:1r7RFu42iyhBqrzkEzqTHx",
+      "name": "Bibi Blocksberg Lied",
+      "album": {
+        "uri": "spotify:album:7BLGgpfiTb4mhgcZ57wuzH",
+        "name": "Folge 14: in Amerika",
+        "artists": [
+          {
+            "uri": "spotify:artist:3t2iKODSDyzoDJw7AsD99u",
+            "name": "Bibi Blocksberg"
+          }
+        ],
+        "covers": [
+          {
+            "file_id": "ab67616d00001e02e1ed809b66792ae99ada8739",
+            "size": "DEFAULT",
+            "width": 300,
+            "height": 300
+          },
+          {
+            "file_id": "ab67616d00004851e1ed809b66792ae99ada8739",
+            "size": "SMALL",
+            "width": 64,
+            "height": 64
+          },
+          {
+            "file_id": "ab67616d0000b273e1ed809b66792ae99ada8739",
+            "size": "LARGE",
+            "width": 640,
+            "height": 640
+          }
+        ],
+        "date": "1984-01-01 0:00:00.0 +00:00:00",
+        "label": "Kiddinx/WM Germany",
+        "external_ids": []
+      },
+      "artists": [
+        {
+          "uri": "spotify:artist:3t2iKODSDyzoDJw7AsD99u",
+          "name": "Bibi Blocksberg"
+        }
+      ],
+      "artists_with_role": [
+        {
+          "uri": "spotify:artist:3t2iKODSDyzoDJw7AsD99u",
+          "name": "Bibi Blocksberg",
+          "role": "ARTIST_ROLE_MAIN_ARTIST"
+        }
+      ],
+      "number": 1,
+      "disc_number": 1,
+      "duration_ms": 89142,
+      "popularity": 32,
+      "is_explicit": false,
+      "external_ids": [
+        {
+          "external_type": "isrc",
+          "id": "DEB581100041"
+        }
+      ],
+      "files": [
+        {
+          "format": "OGG_VORBIS_160",
+          "file_id": "bd0be4e9a055b41adee25e96ac4314be6d850aa5"
+        },
+        {
+          "format": "OGG_VORBIS_96",
+          "file_id": "125e3175a3b95298c999cfa4887f63eebddb0b27"
+        },
+        {
+          "format": "OGG_VORBIS_320",
+          "file_id": "7bd136d762a8db776b9e1326d2b899b17aac910c"
+        },
+        {
+          "format": "AAC_24",
+          "file_id": "133961d8299e3d64a25a4e9b02b66905ebe0a6c9"
+        }
+      ],
+      "previews": [
+        {
+          "format": "MP3_96",
+          "file_id": "c4771d53f1d032878b3adea19c67c03295211adc"
+        }
+      ],
+      "alternatives": [],
+      "tags": [],
+      "has_lyrics": false,
+      "language_of_performance": [
+        "de"
+      ],
+      "original_title": "Bibi Blocksberg Lied",
+      "version_title": ""
+    },
+    {
+      "uri": "spotify:track:0flU1dgMhJqutXrzstz6ok",
+      "name": "Kapitel 01 - in Amerika (Folge 014)",
+      "album": {
+        "uri": "spotify:album:7BLGgpfiTb4mhgcZ57wuzH",
+        "name": "Folge 14: in Amerika",
+        "artists": [
+          {
+            "uri": "spotify:artist:3t2iKODSDyzoDJw7AsD99u",
+            "name": "Bibi Blocksberg"
+          }
+        ],
+        "covers": [
+          {
+            "file_id": "ab67616d00001e02e1ed809b66792ae99ada8739",
+            "size": "DEFAULT",
+            "width": 300,
+            "height": 300
+          },
+          {
+            "file_id": "ab67616d00004851e1ed809b66792ae99ada8739",
+            "size": "SMALL",
+            "width": 64,
+            "height": 64
+          },
+          {
+            "file_id": "ab67616d0000b273e1ed809b66792ae99ada8739",
+            "size": "LARGE",
+            "width": 640,
+            "height": 640
+          }
+        ],
+        "date": "1984-01-01 0:00:00.0 +00:00:00",
+        "label": "Kiddinx/WM Germany",
+        "external_ids": []
+      },
+      "artists": [
+        {
+          "uri": "spotify:artist:3t2iKODSDyzoDJw7AsD99u",
+          "name": "Bibi Blocksberg"
+        }
+      ],
+      "artists_with_role": [
+        {
+          "uri": "spotify:artist:3t2iKODSDyzoDJw7AsD99u",
+          "name": "Bibi Blocksberg",
+          "role": "ARTIST_ROLE_MAIN_ARTIST"
+        }
+      ],
+      "number": 2,
+      "disc_number": 1,
+      "duration_ms": 48904,
+      "popularity": 36,
+      "is_explicit": false,
+      "external_ids": [
+        {
+          "external_type": "isrc",
+          "id": "DEB581508749"
+        }
+      ],
+      "files": [
+        {
+          "format": "OGG_VORBIS_96",
+          "file_id": "54df2c062bd9730f686f4ea472dc29c38a7ea5ce"
+        },
+        {
+          "format": "OGG_VORBIS_320",
+          "file_id": "2bd7e187e802d1a2b1d9d16238fd56ee1a8baf26"
+        },
+        {
+          "format": "OGG_VORBIS_160",
+          "file_id": "0fc760eb9fbc67d156c3d81d24baeef9dc20e5c4"
+        },
+        {
+          "format": "AAC_24",
+          "file_id": "e93c6b4660d1e16070d13a3d4e57206f3de60396"
+        }
+      ],
+      "previews": [
+        {
+          "format": "MP3_96",
+          "file_id": "8a9ea83ae72c3c1d4973a4e7462f98ba2536ea89"
+        }
+      ],
+      "alternatives": [],
+      "tags": [],
+      "has_lyrics": false,
+      "language_of_performance": [
+        "de"
+      ],
+      "original_title": "Kapitel 01 - in Amerika (Folge 014)",
+      "version_title": ""
+    },
+    {
+      "uri": "spotify:track:1lbsOispp7GJvNkoQEMTYL",
+      "name": "Kapitel 02 - in Amerika (Folge 014)",
+      "album": {
+        "uri": "spotify:album:7BLGgpfiTb4mhgcZ57wuzH",
+        "name": "Folge 14: in Amerika",
+        "artists": [
+          {
+            "uri": "spotify:artist:3t2iKODSDyzoDJw7AsD99u",
+            "name": "Bibi Blocksberg"
+          }
+        ],
+        "covers": [
+          {
+            "file_id": "ab67616d00001e02e1ed809b66792ae99ada8739",
+            "size": "DEFAULT",
+            "width": 300,
+            "height": 300
+          },
+          {
+            "file_id": "ab67616d00004851e1ed809b66792ae99ada8739",
+            "size": "SMALL",
+            "width": 64,
+            "height": 64
+          },
+          {
+            "file_id": "ab67616d0000b273e1ed809b66792ae99ada8739",
+            "size": "LARGE",
+            "width": 640,
+            "height": 640
+          }
+        ],
+        "date": "1984-01-01 0:00:00.0 +00:00:00",
+        "label": "Kiddinx/WM Germany",
+        "external_ids": []
+      },
+      "artists": [
+        {
+          "uri": "spotify:artist:3t2iKODSDyzoDJw7AsD99u",
+          "name": "Bibi Blocksberg"
+        }
+      ],
+      "artists_with_role": [
+        {
+          "uri": "spotify:artist:3t2iKODSDyzoDJw7AsD99u",
+          "name": "Bibi Blocksberg",
+          "role": "ARTIST_ROLE_MAIN_ARTIST"
+        }
+      ],
+      "number": 3,
+      "disc_number": 1,
+      "duration_ms": 55721,
+      "popularity": 35,
+      "is_explicit": false,
+      "external_ids": [
+        {
+          "external_type": "isrc",
+          "id": "DEB581508750"
+        }
+      ],
+      "files": [
+        {
+          "format": "AAC_24",
+          "file_id": "b9e1afe53098c8ad3cbcc8804a6e2e2c67c5d1fc"
+        },
+        {
+          "format": "OGG_VORBIS_96",
+          "file_id": "6901821837fee6aceaa825b1f74abb9317877b53"
+        },
+        {
+          "format": "OGG_VORBIS_320",
+          "file_id": "9f987fac1a0bf947b33400623817c4194fa42d17"
+        },
+        {
+          "format": "OGG_VORBIS_160",
+          "file_id": "6dc736b572be03b805d4eeb84a4b28719ba4e6b1"
+        }
+      ],
+      "previews": [
+        {
+          "format": "MP3_96",
+          "file_id": "d765cb3d56a442301bd9254bbfd0dc9b7a882408"
+        }
+      ],
+      "alternatives": [],
+      "tags": [],
+      "has_lyrics": false,
+      "language_of_performance": [
+        "de"
+      ],
+      "original_title": "Kapitel 02 - in Amerika (Folge 014)",
+      "version_title": ""
+    },
+    {
+      "uri": "spotify:track:7iwHdsmynOaIcWn6XEGvaP",
+      "name": "Kapitel 03 - in Amerika (Folge 014)",
+      "album": {
+        "uri": "spotify:album:7BLGgpfiTb4mhgcZ57wuzH",
+        "name": "Folge 14: in Amerika",
+        "artists": [
+          {
+            "uri": "spotify:artist:3t2iKODSDyzoDJw7AsD99u",
+            "name": "Bibi Blocksberg"
+          }
+        ],
+        "covers": [
+          {
+            "file_id": "ab67616d00001e02e1ed809b66792ae99ada8739",
+            "size": "DEFAULT",
+            "width": 300,
+            "height": 300
+          },
+          {
+            "file_id": "ab67616d00004851e1ed809b66792ae99ada8739",
+            "size": "SMALL",
+            "width": 64,
+            "height": 64
+          },
+          {
+            "file_id": "ab67616d0000b273e1ed809b66792ae99ada8739",
+            "size": "LARGE",
+            "width": 640,
+            "height": 640
+          }
+        ],
+        "date": "1984-01-01 0:00:00.0 +00:00:00",
+        "label": "Kiddinx/WM Germany",
+        "external_ids": []
+      },
+      "artists": [
+        {
+          "uri": "spotify:artist:3t2iKODSDyzoDJw7AsD99u",
+          "name": "Bibi Blocksberg"
+        }
+      ],
+      "artists_with_role": [
+        {
+          "uri": "spotify:artist:3t2iKODSDyzoDJw7AsD99u",
+          "name": "Bibi Blocksberg",
+          "role": "ARTIST_ROLE_MAIN_ARTIST"
+        }
+      ],
+      "number": 4,
+      "disc_number": 1,
+      "duration_ms": 64163,
+      "popularity": 35,
+      "is_explicit": false,
+      "external_ids": [
+        {
+          "external_type": "isrc",
+          "id": "DEB581508751"
+        }
+      ],
+      "files": [
+        {
+          "format": "AAC_24",
+          "file_id": "e1efb98dae7a992d7799aac618b55026d45d71ef"
+        },
+        {
+          "format": "OGG_VORBIS_320",
+          "file_id": "5e3cdeb93f3651424296df859f62b8b060bc2bb2"
+        },
+        {
+          "format": "OGG_VORBIS_160",
+          "file_id": "5793f656726a2a60816713aeaadd75ea8f272b07"
+        },
+        {
+          "format": "OGG_VORBIS_96",
+          "file_id": "03b3567d2d1556d0cb7e0e5af27baee8ca321fd8"
+        }
+      ],
+      "previews": [
+        {
+          "format": "MP3_96",
+          "file_id": "165e0889bc0b01e1d6ea3bc2276a93591a13a88e"
+        }
+      ],
+      "alternatives": [],
+      "tags": [],
+      "has_lyrics": false,
+      "language_of_performance": [
+        "de"
+      ],
+      "original_title": "Kapitel 03 - in Amerika (Folge 014)",
+      "version_title": ""
+    },
+    {
+      "uri": "spotify:track:3louAllim9T8b3oczWm4r2",
+      "name": "Kapitel 04 - in Amerika (Folge 014)",
+      "album": {
+        "uri": "spotify:album:7BLGgpfiTb4mhgcZ57wuzH",
+        "name": "Folge 14: in Amerika",
+        "artists": [
+          {
+            "uri": "spotify:artist:3t2iKODSDyzoDJw7AsD99u",
+            "name": "Bibi Blocksberg"
+          }
+        ],
+        "covers": [
+          {
+            "file_id": "ab67616d00001e02e1ed809b66792ae99ada8739",
+            "size": "DEFAULT",
+            "width": 300,
+            "height": 300
+          },
+          {
+            "file_id": "ab67616d00004851e1ed809b66792ae99ada8739",
+            "size": "SMALL",
+            "width": 64,
+            "height": 64
+          },
+          {
+            "file_id": "ab67616d0000b273e1ed809b66792ae99ada8739",
+            "size": "LARGE",
+            "width": 640,
+            "height": 640
+          }
+        ],
+        "date": "1984-01-01 0:00:00.0 +00:00:00",
+        "label": "Kiddinx/WM Germany",
+        "external_ids": []
+      },
+      "artists": [
+        {
+          "uri": "spotify:artist:3t2iKODSDyzoDJw7AsD99u",
+          "name": "Bibi Blocksberg"
+        }
+      ],
+      "artists_with_role": [
+        {
+          "uri": "spotify:artist:3t2iKODSDyzoDJw7AsD99u",
+          "name": "Bibi Blocksberg",
+          "role": "ARTIST_ROLE_MAIN_ARTIST"
+        }
+      ],
+      "number": 5,
+      "disc_number": 1,
+      "duration_ms": 56468,
+      "popularity": 35,
+      "is_explicit": false,
+      "external_ids": [
+        {
+          "external_type": "isrc",
+          "id": "DEB581508752"
+        }
+      ],
+      "files": [
+        {
+          "format": "OGG_VORBIS_160",
+          "file_id": "93c111e7ebbc49b34cc677aab7743ba95e0cb980"
+        },
+        {
+          "format": "AAC_24",
+          "file_id": "c9e0bca83d3c2823e186986753a6530313383b50"
+        },
+        {
+          "format": "OGG_VORBIS_320",
+          "file_id": "b2ca4378f2d68354f307bf6f1b6e7acbf3828767"
+        },
+        {
+          "format": "OGG_VORBIS_96",
+          "file_id": "082d7509ec6e82f09dbb69dd348cd90801f6b7f4"
+        }
+      ],
+      "previews": [
+        {
+          "format": "MP3_96",
+          "file_id": "c3863862b8ee8f69a9a4f61b46cddc9c4739afac"
+        }
+      ],
+      "alternatives": [],
+      "tags": [],
+      "has_lyrics": false,
+      "language_of_performance": [
+        "de"
+      ],
+      "original_title": "Kapitel 04 - in Amerika (Folge 014)",
+      "version_title": ""
+    },
+    {
+      "uri": "spotify:track:5iLbRmFzVd5WaZz3dxKe6p",
+      "name": "Kapitel 05 - in Amerika (Folge 014)",
+      "album": {
+        "uri": "spotify:album:7BLGgpfiTb4mhgcZ57wuzH",
+        "name": "Folge 14: in Amerika",
+        "artists": [
+          {
+            "uri": "spotify:artist:3t2iKODSDyzoDJw7AsD99u",
+            "name": "Bibi Blocksberg"
+          }
+        ],
+        "covers": [
+          {
+            "file_id": "ab67616d00001e02e1ed809b66792ae99ada8739",
+            "size": "DEFAULT",
+            "width": 300,
+            "height": 300
+          },
+          {
+            "file_id": "ab67616d00004851e1ed809b66792ae99ada8739",
+            "size": "SMALL",
+            "width": 64,
+            "height": 64
+          },
+          {
+            "file_id": "ab67616d0000b273e1ed809b66792ae99ada8739",
+            "size": "LARGE",
+            "width": 640,
+            "height": 640
+          }
+        ],
+        "date": "1984-01-01 0:00:00.0 +00:00:00",
+        "label": "Kiddinx/WM Germany",
+        "external_ids": []
+      },
+      "artists": [
+        {
+          "uri": "spotify:artist:3t2iKODSDyzoDJw7AsD99u",
+          "name": "Bibi Blocksberg"
+        }
+      ],
+      "artists_with_role": [
+        {
+          "uri": "spotify:artist:3t2iKODSDyzoDJw7AsD99u",
+          "name": "Bibi Blocksberg",
+          "role": "ARTIST_ROLE_MAIN_ARTIST"
+        }
+      ],
+      "number": 6,
+      "disc_number": 1,
+      "duration_ms": 65587,
+      "popularity": 35,
+      "is_explicit": false,
+      "external_ids": [
+        {
+          "external_type": "isrc",
+          "id": "DEB581508753"
+        }
+      ],
+      "files": [
+        {
+          "format": "OGG_VORBIS_320",
+          "file_id": "84d18cc09d0a56fb3469bd50525c2d36e624f39f"
+        },
+        {
+          "format": "AAC_24",
+          "file_id": "7de956beb906a237796b6db4992c4c0983ccc0e8"
+        },
+        {
+          "format": "OGG_VORBIS_160",
+          "file_id": "59d5c7051137e6e89c7d93b1f27de61142b22e5b"
+        },
+        {
+          "format": "OGG_VORBIS_96",
+          "file_id": "471c5dad3459a304d724817a1ed0cb9c7b1aad5a"
+        }
+      ],
+      "previews": [
+        {
+          "format": "MP3_96",
+          "file_id": "aa7f42f58193495acefd6450a97776cd821401ef"
+        }
+      ],
+      "alternatives": [],
+      "tags": [],
+      "has_lyrics": false,
+      "language_of_performance": [
+        "de"
+      ],
+      "original_title": "Kapitel 05 - in Amerika (Folge 014)",
+      "version_title": ""
+    },
+    {
+      "uri": "spotify:track:13z9o4NsfmVe6FA1kjtEPy",
+      "name": "Kapitel 06 - in Amerika (Folge 014)",
+      "album": {
+        "uri": "spotify:album:7BLGgpfiTb4mhgcZ57wuzH",
+        "name": "Folge 14: in Amerika",
+        "artists": [
+          {
+            "uri": "spotify:artist:3t2iKODSDyzoDJw7AsD99u",
+            "name": "Bibi Blocksberg"
+          }
+        ],
+        "covers": [
+          {
+            "file_id": "ab67616d00001e02e1ed809b66792ae99ada8739",
+            "size": "DEFAULT",
+            "width": 300,
+            "height": 300
+          },
+          {
+            "file_id": "ab67616d00004851e1ed809b66792ae99ada8739",
+            "size": "SMALL",
+            "width": 64,
+            "height": 64
+          },
+          {
+            "file_id": "ab67616d0000b273e1ed809b66792ae99ada8739",
+            "size": "LARGE",
+            "width": 640,
+            "height": 640
+          }
+        ],
+        "date": "1984-01-01 0:00:00.0 +00:00:00",
+        "label": "Kiddinx/WM Germany",
+        "external_ids": []
+      },
+      "artists": [
+        {
+          "uri": "spotify:artist:3t2iKODSDyzoDJw7AsD99u",
+          "name": "Bibi Blocksberg"
+        }
+      ],
+      "artists_with_role": [
+        {
+          "uri": "spotify:artist:3t2iKODSDyzoDJw7AsD99u",
+          "name": "Bibi Blocksberg",
+          "role": "ARTIST_ROLE_MAIN_ARTIST"
+        }
+      ],
+      "number": 7,
+      "disc_number": 1,
+      "duration_ms": 64806,
+      "popularity": 35,
+      "is_explicit": false,
+      "external_ids": [
+        {
+          "external_type": "isrc",
+          "id": "DEB581508754"
+        }
+      ],
+      "files": [
+        {
+          "format": "OGG_VORBIS_320",
+          "file_id": "5bcffd7821b105002b5028cf1b62a9e51c8b7f36"
+        },
+        {
+          "format": "OGG_VORBIS_96",
+          "file_id": "a9e629ddb7e36795902dd70841251cffca3de094"
+        },
+        {
+          "format": "AAC_24",
+          "file_id": "b2074a0eeb450210cb1ac5d0efa40b5ea4243129"
+        },
+        {
+          "format": "OGG_VORBIS_160",
+          "file_id": "f270c7358bfad3ce6a367166ca5c1d7bd9e9757b"
+        }
+      ],
+      "previews": [
+        {
+          "format": "MP3_96",
+          "file_id": "92965cc0df38dc7fe4e2f04a83579bada7dda5cf"
+        }
+      ],
+      "alternatives": [],
+      "tags": [],
+      "has_lyrics": false,
+      "language_of_performance": [
+        "de"
+      ],
+      "original_title": "Kapitel 06 - in Amerika (Folge 014)",
+      "version_title": ""
+    },
+    {
+      "uri": "spotify:track:0tsztMvqHgpoIAjuW5my3Q",
+      "name": "Kapitel 07 - in Amerika (Folge 014)",
+      "album": {
+        "uri": "spotify:album:7BLGgpfiTb4mhgcZ57wuzH",
+        "name": "Folge 14: in Amerika",
+        "artists": [
+          {
+            "uri": "spotify:artist:3t2iKODSDyzoDJw7AsD99u",
+            "name": "Bibi Blocksberg"
+          }
+        ],
+        "covers": [
+          {
+            "file_id": "ab67616d00001e02e1ed809b66792ae99ada8739",
+            "size": "DEFAULT",
+            "width": 300,
+            "height": 300
+          },
+          {
+            "file_id": "ab67616d00004851e1ed809b66792ae99ada8739",
+            "size": "SMALL",
+            "width": 64,
+            "height": 64
+          },
+          {
+            "file_id": "ab67616d0000b273e1ed809b66792ae99ada8739",
+            "size": "LARGE",
+            "width": 640,
+            "height": 640
+          }
+        ],
+        "date": "1984-01-01 0:00:00.0 +00:00:00",
+        "label": "Kiddinx/WM Germany",
+        "external_ids": []
+      },
+      "artists": [
+        {
+          "uri": "spotify:artist:3t2iKODSDyzoDJw7AsD99u",
+          "name": "Bibi Blocksberg"
+        }
+      ],
+      "artists_with_role": [
+        {
+          "uri": "spotify:artist:3t2iKODSDyzoDJw7AsD99u",
+          "name": "Bibi Blocksberg",
+          "role": "ARTIST_ROLE_MAIN_ARTIST"
+        }
+      ],
+      "number": 8,
+      "disc_number": 1,
+      "duration_ms": 60376,
+      "popularity": 35,
+      "is_explicit": false,
+      "external_ids": [
+        {
+          "external_type": "isrc",
+          "id": "DEB581508755"
+        }
+      ],
+      "files": [
+        {
+          "format": "OGG_VORBIS_96",
+          "file_id": "c184fccb945f1aacef73fa18c9bd30cce6ab785e"
+        },
+        {
+          "format": "OGG_VORBIS_160",
+          "file_id": "af4f0a6feb066f7f63b25a65ce372874976ffcaf"
+        },
+        {
+          "format": "OGG_VORBIS_320",
+          "file_id": "aed21904a34722672e5e64367246e93a188b7966"
+        },
+        {
+          "format": "AAC_24",
+          "file_id": "42ee693162b99777bcdfe788e8c9c0176d611ca3"
+        }
+      ],
+      "previews": [
+        {
+          "format": "MP3_96",
+          "file_id": "83daba591aebc8b30367e70c93eb99ff8f31e4b5"
+        }
+      ],
+      "alternatives": [],
+      "tags": [],
+      "has_lyrics": false,
+      "language_of_performance": [
+        "de"
+      ],
+      "original_title": "Kapitel 07 - in Amerika (Folge 014)",
+      "version_title": ""
+    },
+    {
+      "uri": "spotify:track:5NZEX8bOV2O6U3tNZumKSb",
+      "name": "Kapitel 08 - in Amerika (Folge 014)",
+      "album": {
+        "uri": "spotify:album:7BLGgpfiTb4mhgcZ57wuzH",
+        "name": "Folge 14: in Amerika",
+        "artists": [
+          {
+            "uri": "spotify:artist:3t2iKODSDyzoDJw7AsD99u",
+            "name": "Bibi Blocksberg"
+          }
+        ],
+        "covers": [
+          {
+            "file_id": "ab67616d00001e02e1ed809b66792ae99ada8739",
+            "size": "DEFAULT",
+            "width": 300,
+            "height": 300
+          },
+          {
+            "file_id": "ab67616d00004851e1ed809b66792ae99ada8739",
+            "size": "SMALL",
+            "width": 64,
+            "height": 64
+          },
+          {
+            "file_id": "ab67616d0000b273e1ed809b66792ae99ada8739",
+            "size": "LARGE",
+            "width": 640,
+            "height": 640
+          }
+        ],
+        "date": "1984-01-01 0:00:00.0 +00:00:00",
+        "label": "Kiddinx/WM Germany",
+        "external_ids": []
+      },
+      "artists": [
+        {
+          "uri": "spotify:artist:3t2iKODSDyzoDJw7AsD99u",
+          "name": "Bibi Blocksberg"
+        }
+      ],
+      "artists_with_role": [
+        {
+          "uri": "spotify:artist:3t2iKODSDyzoDJw7AsD99u",
+          "name": "Bibi Blocksberg",
+          "role": "ARTIST_ROLE_MAIN_ARTIST"
+        }
+      ],
+      "number": 9,
+      "disc_number": 1,
+      "duration_ms": 63399,
+      "popularity": 35,
+      "is_explicit": false,
+      "external_ids": [
+        {
+          "external_type": "isrc",
+          "id": "DEB581508756"
+        }
+      ],
+      "files": [
+        {
+          "format": "OGG_VORBIS_160",
+          "file_id": "4fc51fde48f43d2ff15abc0d8d7166d98ba12f91"
+        },
+        {
+          "format": "OGG_VORBIS_96",
+          "file_id": "7b2589ec4ed750ed7dac7f32b9c88a288f1d7196"
+        },
+        {
+          "format": "OGG_VORBIS_320",
+          "file_id": "5f2fc9726430dd2c2f5af6a6f52a9973ca6e0c08"
+        },
+        {
+          "format": "AAC_24",
+          "file_id": "c98871a6b0454117be7fb29aab6c5d0267cde0ba"
+        }
+      ],
+      "previews": [
+        {
+          "format": "MP3_96",
+          "file_id": "b3711dff0111b74f877a6fe443861015892efce7"
+        }
+      ],
+      "alternatives": [],
+      "tags": [],
+      "has_lyrics": false,
+      "language_of_performance": [
+        "de"
+      ],
+      "original_title": "Kapitel 08 - in Amerika (Folge 014)",
+      "version_title": ""
+    },
+    {
+      "uri": "spotify:track:0CYhvJFDqLN5DhLMCpNyuW",
+      "name": "Kapitel 09 - in Amerika (Folge 014)",
+      "album": {
+        "uri": "spotify:album:7BLGgpfiTb4mhgcZ57wuzH",
+        "name": "Folge 14: in Amerika",
+        "artists": [
+          {
+            "uri": "spotify:artist:3t2iKODSDyzoDJw7AsD99u",
+            "name": "Bibi Blocksberg"
+          }
+        ],
+        "covers": [
+          {
+            "file_id": "ab67616d00001e02e1ed809b66792ae99ada8739",
+            "size": "DEFAULT",
+            "width": 300,
+            "height": 300
+          },
+          {
+            "file_id": "ab67616d00004851e1ed809b66792ae99ada8739",
+            "size": "SMALL",
+            "width": 64,
+            "height": 64
+          },
+          {
+            "file_id": "ab67616d0000b273e1ed809b66792ae99ada8739",
+            "size": "LARGE",
+            "width": 640,
+            "height": 640
+          }
+        ],
+        "date": "1984-01-01 0:00:00.0 +00:00:00",
+        "label": "Kiddinx/WM Germany",
+        "external_ids": []
+      },
+      "artists": [
+        {
+          "uri": "spotify:artist:3t2iKODSDyzoDJw7AsD99u",
+          "name": "Bibi Blocksberg"
+        }
+      ],
+      "artists_with_role": [
+        {
+          "uri": "spotify:artist:3t2iKODSDyzoDJw7AsD99u",
+          "name": "Bibi Blocksberg",
+          "role": "ARTIST_ROLE_MAIN_ARTIST"
+        }
+      ],
+      "number": 10,
+      "disc_number": 1,
+      "duration_ms": 61245,
+      "popularity": 35,
+      "is_explicit": false,
+      "external_ids": [
+        {
+          "external_type": "isrc",
+          "id": "DEB581508757"
+        }
+      ],
+      "files": [
+        {
+          "format": "OGG_VORBIS_160",
+          "file_id": "8609e68ccb0ff0136881d39db405ff9f73a7b377"
+        },
+        {
+          "format": "OGG_VORBIS_320",
+          "file_id": "5d87ad4d1d11f8f6e04315fdabf0c5ec4c361265"
+        },
+        {
+          "format": "OGG_VORBIS_96",
+          "file_id": "50d27a0a5e10f8afc262772f649bbb830e09830d"
+        },
+        {
+          "format": "AAC_24",
+          "file_id": "51e685394a591a54d4a60528e899d8d78f5665a0"
+        }
+      ],
+      "previews": [
+        {
+          "format": "MP3_96",
+          "file_id": "189a3dbd343d2ef99bdb9949c6c6c9d66542ee8f"
+        }
+      ],
+      "alternatives": [],
+      "tags": [],
+      "has_lyrics": false,
+      "language_of_performance": [
+        "de"
+      ],
+      "original_title": "Kapitel 09 - in Amerika (Folge 014)",
+      "version_title": ""
+    },
+    {
+      "uri": "spotify:track:5AZUV3QLNggz9rMAVEz1Kb",
+      "name": "Kapitel 10 - in Amerika (Folge 014)",
+      "album": {
+        "uri": "spotify:album:7BLGgpfiTb4mhgcZ57wuzH",
+        "name": "Folge 14: in Amerika",
+        "artists": [
+          {
+            "uri": "spotify:artist:3t2iKODSDyzoDJw7AsD99u",
+            "name": "Bibi Blocksberg"
+          }
+        ],
+        "covers": [
+          {
+            "file_id": "ab67616d00001e02e1ed809b66792ae99ada8739",
+            "size": "DEFAULT",
+            "width": 300,
+            "height": 300
+          },
+          {
+            "file_id": "ab67616d00004851e1ed809b66792ae99ada8739",
+            "size": "SMALL",
+            "width": 64,
+            "height": 64
+          },
+          {
+            "file_id": "ab67616d0000b273e1ed809b66792ae99ada8739",
+            "size": "LARGE",
+            "width": 640,
+            "height": 640
+          }
+        ],
+        "date": "1984-01-01 0:00:00.0 +00:00:00",
+        "label": "Kiddinx/WM Germany",
+        "external_ids": []
+      },
+      "artists": [
+        {
+          "uri": "spotify:artist:3t2iKODSDyzoDJw7AsD99u",
+          "name": "Bibi Blocksberg"
+        }
+      ],
+      "artists_with_role": [
+        {
+          "uri": "spotify:artist:3t2iKODSDyzoDJw7AsD99u",
+          "name": "Bibi Blocksberg",
+          "role": "ARTIST_ROLE_MAIN_ARTIST"
+        }
+      ],
+      "number": 11,
+      "disc_number": 1,
+      "duration_ms": 65935,
+      "popularity": 35,
+      "is_explicit": false,
+      "external_ids": [
+        {
+          "external_type": "isrc",
+          "id": "DEB581508758"
+        }
+      ],
+      "files": [
+        {
+          "format": "AAC_24",
+          "file_id": "212b81a45dfa5c2a16a3102163b618ca14fb073d"
+        },
+        {
+          "format": "OGG_VORBIS_160",
+          "file_id": "1ff7673fa3844db8ac1bcde78106d39a2ecdbd42"
+        },
+        {
+          "format": "OGG_VORBIS_320",
+          "file_id": "336fc70fd609f201d5a4549a7c9fb5cdd219080d"
+        },
+        {
+          "format": "OGG_VORBIS_96",
+          "file_id": "6e7d423153f9bcc0bfac8c21a0d7f280fd3a4d26"
+        }
+      ],
+      "previews": [
+        {
+          "format": "MP3_96",
+          "file_id": "95869aa9de082b3c2b8c7112f815f156d3459490"
+        }
+      ],
+      "alternatives": [],
+      "tags": [],
+      "has_lyrics": false,
+      "language_of_performance": [
+        "de"
+      ],
+      "original_title": "Kapitel 10 - in Amerika (Folge 014)",
+      "version_title": ""
+    },
+    {
+      "uri": "spotify:track:5KMm6vYv94ZhBQM5yXsDT3",
+      "name": "Kapitel 11 - in Amerika (Folge 014)",
+      "album": {
+        "uri": "spotify:album:7BLGgpfiTb4mhgcZ57wuzH",
+        "name": "Folge 14: in Amerika",
+        "artists": [
+          {
+            "uri": "spotify:artist:3t2iKODSDyzoDJw7AsD99u",
+            "name": "Bibi Blocksberg"
+          }
+        ],
+        "covers": [
+          {
+            "file_id": "ab67616d00001e02e1ed809b66792ae99ada8739",
+            "size": "DEFAULT",
+            "width": 300,
+            "height": 300
+          },
+          {
+            "file_id": "ab67616d00004851e1ed809b66792ae99ada8739",
+            "size": "SMALL",
+            "width": 64,
+            "height": 64
+          },
+          {
+            "file_id": "ab67616d0000b273e1ed809b66792ae99ada8739",
+            "size": "LARGE",
+            "width": 640,
+            "height": 640
+          }
+        ],
+        "date": "1984-01-01 0:00:00.0 +00:00:00",
+        "label": "Kiddinx/WM Germany",
+        "external_ids": []
+      },
+      "artists": [
+        {
+          "uri": "spotify:artist:3t2iKODSDyzoDJw7AsD99u",
+          "name": "Bibi Blocksberg"
+        }
+      ],
+      "artists_with_role": [
+        {
+          "uri": "spotify:artist:3t2iKODSDyzoDJw7AsD99u",
+          "name": "Bibi Blocksberg",
+          "role": "ARTIST_ROLE_MAIN_ARTIST"
+        }
+      ],
+      "number": 12,
+      "disc_number": 1,
+      "duration_ms": 65396,
+      "popularity": 35,
+      "is_explicit": false,
+      "external_ids": [
+        {
+          "external_type": "isrc",
+          "id": "DEB581508759"
+        }
+      ],
+      "files": [
+        {
+          "format": "OGG_VORBIS_96",
+          "file_id": "c49c244ef3249396d54b3734ef894ba59ea236c7"
+        },
+        {
+          "format": "AAC_24",
+          "file_id": "5065e4dbca2c9525a5d97a0e8ac3dce1d4d9d2f8"
+        },
+        {
+          "format": "OGG_VORBIS_320",
+          "file_id": "36af44fa7bb0e40ef8daf1fb277bf64398d6dbf1"
+        },
+        {
+          "format": "OGG_VORBIS_160",
+          "file_id": "b37150ab3e080e0c136218ee3ed5e92645d028ff"
+        }
+      ],
+      "previews": [
+        {
+          "format": "MP3_96",
+          "file_id": "4f7124c1b647dd75a951c440a8a3bebec3b7a874"
+        }
+      ],
+      "alternatives": [],
+      "tags": [],
+      "has_lyrics": false,
+      "language_of_performance": [
+        "de"
+      ],
+      "original_title": "Kapitel 11 - in Amerika (Folge 014)",
+      "version_title": ""
+    },
+    {
+      "uri": "spotify:track:4IG8vr1GnUkRvrwju8Qpw7",
+      "name": "Kapitel 12 - in Amerika (Folge 014)",
+      "album": {
+        "uri": "spotify:album:7BLGgpfiTb4mhgcZ57wuzH",
+        "name": "Folge 14: in Amerika",
+        "artists": [
+          {
+            "uri": "spotify:artist:3t2iKODSDyzoDJw7AsD99u",
+            "name": "Bibi Blocksberg"
+          }
+        ],
+        "covers": [
+          {
+            "file_id": "ab67616d00001e02e1ed809b66792ae99ada8739",
+            "size": "DEFAULT",
+            "width": 300,
+            "height": 300
+          },
+          {
+            "file_id": "ab67616d00004851e1ed809b66792ae99ada8739",
+            "size": "SMALL",
+            "width": 64,
+            "height": 64
+          },
+          {
+            "file_id": "ab67616d0000b273e1ed809b66792ae99ada8739",
+            "size": "LARGE",
+            "width": 640,
+            "height": 640
+          }
+        ],
+        "date": "1984-01-01 0:00:00.0 +00:00:00",
+        "label": "Kiddinx/WM Germany",
+        "external_ids": []
+      },
+      "artists": [
+        {
+          "uri": "spotify:artist:3t2iKODSDyzoDJw7AsD99u",
+          "name": "Bibi Blocksberg"
+        }
+      ],
+      "artists_with_role": [
+        {
+          "uri": "spotify:artist:3t2iKODSDyzoDJw7AsD99u",
+          "name": "Bibi Blocksberg",
+          "role": "ARTIST_ROLE_MAIN_ARTIST"
+        }
+      ],
+      "number": 13,
+      "disc_number": 1,
+      "duration_ms": 53967,
+      "popularity": 35,
+      "is_explicit": false,
+      "external_ids": [
+        {
+          "external_type": "isrc",
+          "id": "DEB581508760"
+        }
+      ],
+      "files": [
+        {
+          "format": "OGG_VORBIS_96",
+          "file_id": "fc5a96e38d2debb1e617e71e3dd4ae50dcc7122a"
+        },
+        {
+          "format": "OGG_VORBIS_320",
+          "file_id": "40123707c7884511aa726720d79a00c2212bdd0b"
+        },
+        {
+          "format": "AAC_24",
+          "file_id": "bb47765062817ea62d17d5e58e61aec645e969f8"
+        },
+        {
+          "format": "OGG_VORBIS_160",
+          "file_id": "e46a02642a723ff194da1bb1b70a45c348e9ff92"
+        }
+      ],
+      "previews": [
+        {
+          "format": "MP3_96",
+          "file_id": "0fd34e0fa5fabeb862d639d5d3387b7ebb274251"
+        }
+      ],
+      "alternatives": [],
+      "tags": [],
+      "has_lyrics": false,
+      "language_of_performance": [
+        "de"
+      ],
+      "original_title": "Kapitel 12 - in Amerika (Folge 014)",
+      "version_title": ""
+    },
+    {
+      "uri": "spotify:track:7LO2gDcPxElO3QylIqHKla",
+      "name": "Kapitel 13 - in Amerika (Folge 014)",
+      "album": {
+        "uri": "spotify:album:7BLGgpfiTb4mhgcZ57wuzH",
+        "name": "Folge 14: in Amerika",
+        "artists": [
+          {
+            "uri": "spotify:artist:3t2iKODSDyzoDJw7AsD99u",
+            "name": "Bibi Blocksberg"
+          }
+        ],
+        "covers": [
+          {
+            "file_id": "ab67616d00001e02e1ed809b66792ae99ada8739",
+            "size": "DEFAULT",
+            "width": 300,
+            "height": 300
+          },
+          {
+            "file_id": "ab67616d00004851e1ed809b66792ae99ada8739",
+            "size": "SMALL",
+            "width": 64,
+            "height": 64
+          },
+          {
+            "file_id": "ab67616d0000b273e1ed809b66792ae99ada8739",
+            "size": "LARGE",
+            "width": 640,
+            "height": 640
+          }
+        ],
+        "date": "1984-01-01 0:00:00.0 +00:00:00",
+        "label": "Kiddinx/WM Germany",
+        "external_ids": []
+      },
+      "artists": [
+        {
+          "uri": "spotify:artist:3t2iKODSDyzoDJw7AsD99u",
+          "name": "Bibi Blocksberg"
+        }
+      ],
+      "artists_with_role": [
+        {
+          "uri": "spotify:artist:3t2iKODSDyzoDJw7AsD99u",
+          "name": "Bibi Blocksberg",
+          "role": "ARTIST_ROLE_MAIN_ARTIST"
+        }
+      ],
+      "number": 14,
+      "disc_number": 1,
+      "duration_ms": 68279,
+      "popularity": 35,
+      "is_explicit": false,
+      "external_ids": [
+        {
+          "external_type": "isrc",
+          "id": "DEB581508761"
+        }
+      ],
+      "files": [
+        {
+          "format": "OGG_VORBIS_160",
+          "file_id": "4ac0708572350dcb900e2a29866f705115d01a79"
+        },
+        {
+          "format": "OGG_VORBIS_320",
+          "file_id": "115b043f583950e264288f65127c22b6fb7d49a8"
+        },
+        {
+          "format": "AAC_24",
+          "file_id": "140fb9450b6d11e7cdd0de84c79fc1edf1ac708c"
+        },
+        {
+          "format": "OGG_VORBIS_96",
+          "file_id": "92de82eb2a5134b2ff03c080dd74758783d46381"
+        }
+      ],
+      "previews": [
+        {
+          "format": "MP3_96",
+          "file_id": "fc6d017d9dc7edac2adef22f0a0a6475b4c6c927"
+        }
+      ],
+      "alternatives": [],
+      "tags": [],
+      "has_lyrics": false,
+      "language_of_performance": [
+        "de"
+      ],
+      "original_title": "Kapitel 13 - in Amerika (Folge 014)",
+      "version_title": ""
+    },
+    {
+      "uri": "spotify:track:7AjXWtj3YRRrZ8lGUHomxz",
+      "name": "Kapitel 14 - in Amerika (Folge 014)",
+      "album": {
+        "uri": "spotify:album:7BLGgpfiTb4mhgcZ57wuzH",
+        "name": "Folge 14: in Amerika",
+        "artists": [
+          {
+            "uri": "spotify:artist:3t2iKODSDyzoDJw7AsD99u",
+            "name": "Bibi Blocksberg"
+          }
+        ],
+        "covers": [
+          {
+            "file_id": "ab67616d00001e02e1ed809b66792ae99ada8739",
+            "size": "DEFAULT",
+            "width": 300,
+            "height": 300
+          },
+          {
+            "file_id": "ab67616d00004851e1ed809b66792ae99ada8739",
+            "size": "SMALL",
+            "width": 64,
+            "height": 64
+          },
+          {
+            "file_id": "ab67616d0000b273e1ed809b66792ae99ada8739",
+            "size": "LARGE",
+            "width": 640,
+            "height": 640
+          }
+        ],
+        "date": "1984-01-01 0:00:00.0 +00:00:00",
+        "label": "Kiddinx/WM Germany",
+        "external_ids": []
+      },
+      "artists": [
+        {
+          "uri": "spotify:artist:3t2iKODSDyzoDJw7AsD99u",
+          "name": "Bibi Blocksberg"
+        }
+      ],
+      "artists_with_role": [
+        {
+          "uri": "spotify:artist:3t2iKODSDyzoDJw7AsD99u",
+          "name": "Bibi Blocksberg",
+          "role": "ARTIST_ROLE_MAIN_ARTIST"
+        }
+      ],
+      "number": 15,
+      "disc_number": 1,
+      "duration_ms": 58257,
+      "popularity": 35,
+      "is_explicit": false,
+      "external_ids": [
+        {
+          "external_type": "isrc",
+          "id": "DEB581508762"
+        }
+      ],
+      "files": [
+        {
+          "format": "OGG_VORBIS_160",
+          "file_id": "d0174f4b2f9192d61865f8caef11046ebcd44cd8"
+        },
+        {
+          "format": "OGG_VORBIS_320",
+          "file_id": "047a5b0798bf1ee477d68a0c4d1476289423135f"
+        },
+        {
+          "format": "AAC_24",
+          "file_id": "5266ab81b6e0796938ea74aa7a22f9aaec0a53e8"
+        },
+        {
+          "format": "OGG_VORBIS_96",
+          "file_id": "c9a38ded61aacf7edc6de748465e22d1a4a986b3"
+        }
+      ],
+      "previews": [
+        {
+          "format": "MP3_96",
+          "file_id": "978c23171cdcb8b4866f40c19b9b8fd7ef042179"
+        }
+      ],
+      "alternatives": [],
+      "tags": [],
+      "has_lyrics": false,
+      "language_of_performance": [
+        "de"
+      ],
+      "original_title": "Kapitel 14 - in Amerika (Folge 014)",
+      "version_title": ""
+    },
+    {
+      "uri": "spotify:track:0Iyhd0UGIoP3dxlz6R0Nja",
+      "name": "Kapitel 15 - in Amerika (Folge 014)",
+      "album": {
+        "uri": "spotify:album:7BLGgpfiTb4mhgcZ57wuzH",
+        "name": "Folge 14: in Amerika",
+        "artists": [
+          {
+            "uri": "spotify:artist:3t2iKODSDyzoDJw7AsD99u",
+            "name": "Bibi Blocksberg"
+          }
+        ],
+        "covers": [
+          {
+            "file_id": "ab67616d00001e02e1ed809b66792ae99ada8739",
+            "size": "DEFAULT",
+            "width": 300,
+            "height": 300
+          },
+          {
+            "file_id": "ab67616d00004851e1ed809b66792ae99ada8739",
+            "size": "SMALL",
+            "width": 64,
+            "height": 64
+          },
+          {
+            "file_id": "ab67616d0000b273e1ed809b66792ae99ada8739",
+            "size": "LARGE",
+            "width": 640,
+            "height": 640
+          }
+        ],
+        "date": "1984-01-01 0:00:00.0 +00:00:00",
+        "label": "Kiddinx/WM Germany",
+        "external_ids": []
+      },
+      "artists": [
+        {
+          "uri": "spotify:artist:3t2iKODSDyzoDJw7AsD99u",
+          "name": "Bibi Blocksberg"
+        }
+      ],
+      "artists_with_role": [
+        {
+          "uri": "spotify:artist:3t2iKODSDyzoDJw7AsD99u",
+          "name": "Bibi Blocksberg",
+          "role": "ARTIST_ROLE_MAIN_ARTIST"
+        }
+      ],
+      "number": 16,
+      "disc_number": 1,
+      "duration_ms": 66230,
+      "popularity": 35,
+      "is_explicit": false,
+      "external_ids": [
+        {
+          "external_type": "isrc",
+          "id": "DEB581508763"
+        }
+      ],
+      "files": [
+        {
+          "format": "AAC_24",
+          "file_id": "f38fa26e59f3e29c6ef564f63a9139d330f7c69d"
+        },
+        {
+          "format": "OGG_VORBIS_96",
+          "file_id": "3392eb493bfd642170ee8f4d48c0415f414260bd"
+        },
+        {
+          "format": "OGG_VORBIS_160",
+          "file_id": "318d059e65e3801e5db2852fcd6c146f2723b22a"
+        },
+        {
+          "format": "OGG_VORBIS_320",
+          "file_id": "375879cb59300afa67fd48355cb12e512e43eebb"
+        }
+      ],
+      "previews": [
+        {
+          "format": "MP3_96",
+          "file_id": "0e2ba7f5f17be379422f82b99c7038e8c045045a"
+        }
+      ],
+      "alternatives": [],
+      "tags": [],
+      "has_lyrics": false,
+      "language_of_performance": [
+        "de"
+      ],
+      "original_title": "Kapitel 15 - in Amerika (Folge 014)",
+      "version_title": ""
+    },
+    {
+      "uri": "spotify:track:1EDzaPhODh3ChHBcrZX7yB",
+      "name": "Kapitel 16 - in Amerika (Folge 014)",
+      "album": {
+        "uri": "spotify:album:7BLGgpfiTb4mhgcZ57wuzH",
+        "name": "Folge 14: in Amerika",
+        "artists": [
+          {
+            "uri": "spotify:artist:3t2iKODSDyzoDJw7AsD99u",
+            "name": "Bibi Blocksberg"
+          }
+        ],
+        "covers": [
+          {
+            "file_id": "ab67616d00001e02e1ed809b66792ae99ada8739",
+            "size": "DEFAULT",
+            "width": 300,
+            "height": 300
+          },
+          {
+            "file_id": "ab67616d00004851e1ed809b66792ae99ada8739",
+            "size": "SMALL",
+            "width": 64,
+            "height": 64
+          },
+          {
+            "file_id": "ab67616d0000b273e1ed809b66792ae99ada8739",
+            "size": "LARGE",
+            "width": 640,
+            "height": 640
+          }
+        ],
+        "date": "1984-01-01 0:00:00.0 +00:00:00",
+        "label": "Kiddinx/WM Germany",
+        "external_ids": []
+      },
+      "artists": [
+        {
+          "uri": "spotify:artist:3t2iKODSDyzoDJw7AsD99u",
+          "name": "Bibi Blocksberg"
+        }
+      ],
+      "artists_with_role": [
+        {
+          "uri": "spotify:artist:3t2iKODSDyzoDJw7AsD99u",
+          "name": "Bibi Blocksberg",
+          "role": "ARTIST_ROLE_MAIN_ARTIST"
+        }
+      ],
+      "number": 17,
+      "disc_number": 1,
+      "duration_ms": 69391,
+      "popularity": 35,
+      "is_explicit": false,
+      "external_ids": [
+        {
+          "external_type": "isrc",
+          "id": "DEB581508764"
+        }
+      ],
+      "files": [
+        {
+          "format": "OGG_VORBIS_160",
+          "file_id": "5dfb120e7fa8f1df97cb0408995cf59293d59517"
+        },
+        {
+          "format": "OGG_VORBIS_320",
+          "file_id": "6da920e48ec16cad08329ca665bac36e021b3757"
+        },
+        {
+          "format": "AAC_24",
+          "file_id": "ccf9807a1343796925e480a54c3c7de890be5942"
+        },
+        {
+          "format": "OGG_VORBIS_96",
+          "file_id": "4b418e9e31d0c06c55cb659a2495da6d6db56ff9"
+        }
+      ],
+      "previews": [
+        {
+          "format": "MP3_96",
+          "file_id": "a3112a2d4847b435e94e20c6c70f9a81a3c28e26"
+        }
+      ],
+      "alternatives": [],
+      "tags": [],
+      "has_lyrics": false,
+      "language_of_performance": [
+        "de"
+      ],
+      "original_title": "Kapitel 16 - in Amerika (Folge 014)",
+      "version_title": ""
+    },
+    {
+      "uri": "spotify:track:0DOfITofir8VTk6EeHMJO6",
+      "name": "Kapitel 17 - in Amerika (Folge 014)",
+      "album": {
+        "uri": "spotify:album:7BLGgpfiTb4mhgcZ57wuzH",
+        "name": "Folge 14: in Amerika",
+        "artists": [
+          {
+            "uri": "spotify:artist:3t2iKODSDyzoDJw7AsD99u",
+            "name": "Bibi Blocksberg"
+          }
+        ],
+        "covers": [
+          {
+            "file_id": "ab67616d00001e02e1ed809b66792ae99ada8739",
+            "size": "DEFAULT",
+            "width": 300,
+            "height": 300
+          },
+          {
+            "file_id": "ab67616d00004851e1ed809b66792ae99ada8739",
+            "size": "SMALL",
+            "width": 64,
+            "height": 64
+          },
+          {
+            "file_id": "ab67616d0000b273e1ed809b66792ae99ada8739",
+            "size": "LARGE",
+            "width": 640,
+            "height": 640
+          }
+        ],
+        "date": "1984-01-01 0:00:00.0 +00:00:00",
+        "label": "Kiddinx/WM Germany",
+        "external_ids": []
+      },
+      "artists": [
+        {
+          "uri": "spotify:artist:3t2iKODSDyzoDJw7AsD99u",
+          "name": "Bibi Blocksberg"
+        }
+      ],
+      "artists_with_role": [
+        {
+          "uri": "spotify:artist:3t2iKODSDyzoDJw7AsD99u",
+          "name": "Bibi Blocksberg",
+          "role": "ARTIST_ROLE_MAIN_ARTIST"
+        }
+      ],
+      "number": 18,
+      "disc_number": 1,
+      "duration_ms": 58709,
+      "popularity": 35,
+      "is_explicit": false,
+      "external_ids": [
+        {
+          "external_type": "isrc",
+          "id": "DEB581508765"
+        }
+      ],
+      "files": [
+        {
+          "format": "OGG_VORBIS_96",
+          "file_id": "52fd88336d749f0b886df0e24deb63d51661672d"
+        },
+        {
+          "format": "OGG_VORBIS_320",
+          "file_id": "5a4122f5fa8e9c896b7c44f4574b00116777329f"
+        },
+        {
+          "format": "AAC_24",
+          "file_id": "45fd01ad91c9e3023aa4e424985527ed9fb117e7"
+        },
+        {
+          "format": "OGG_VORBIS_160",
+          "file_id": "c665de54eab70aac4750d8dff0afb66bd1b8e0de"
+        }
+      ],
+      "previews": [
+        {
+          "format": "MP3_96",
+          "file_id": "00f6497e042d428e7e2fbfe9745d9b4cbcfb878c"
+        }
+      ],
+      "alternatives": [],
+      "tags": [],
+      "has_lyrics": false,
+      "language_of_performance": [
+        "de"
+      ],
+      "original_title": "Kapitel 17 - in Amerika (Folge 014)",
+      "version_title": ""
+    },
+    {
+      "uri": "spotify:track:5KZFGrqbXQjLkKzH7n0NfT",
+      "name": "Kapitel 18 - in Amerika (Folge 014)",
+      "album": {
+        "uri": "spotify:album:7BLGgpfiTb4mhgcZ57wuzH",
+        "name": "Folge 14: in Amerika",
+        "artists": [
+          {
+            "uri": "spotify:artist:3t2iKODSDyzoDJw7AsD99u",
+            "name": "Bibi Blocksberg"
+          }
+        ],
+        "covers": [
+          {
+            "file_id": "ab67616d00001e02e1ed809b66792ae99ada8739",
+            "size": "DEFAULT",
+            "width": 300,
+            "height": 300
+          },
+          {
+            "file_id": "ab67616d00004851e1ed809b66792ae99ada8739",
+            "size": "SMALL",
+            "width": 64,
+            "height": 64
+          },
+          {
+            "file_id": "ab67616d0000b273e1ed809b66792ae99ada8739",
+            "size": "LARGE",
+            "width": 640,
+            "height": 640
+          }
+        ],
+        "date": "1984-01-01 0:00:00.0 +00:00:00",
+        "label": "Kiddinx/WM Germany",
+        "external_ids": []
+      },
+      "artists": [
+        {
+          "uri": "spotify:artist:3t2iKODSDyzoDJw7AsD99u",
+          "name": "Bibi Blocksberg"
+        }
+      ],
+      "artists_with_role": [
+        {
+          "uri": "spotify:artist:3t2iKODSDyzoDJw7AsD99u",
+          "name": "Bibi Blocksberg",
+          "role": "ARTIST_ROLE_MAIN_ARTIST"
+        }
+      ],
+      "number": 19,
+      "disc_number": 1,
+      "duration_ms": 64667,
+      "popularity": 35,
+      "is_explicit": false,
+      "external_ids": [
+        {
+          "external_type": "isrc",
+          "id": "DEB581508766"
+        }
+      ],
+      "files": [
+        {
+          "format": "OGG_VORBIS_160",
+          "file_id": "2c976523eb9353adbb9e0554527a0836a6640143"
+        },
+        {
+          "format": "OGG_VORBIS_96",
+          "file_id": "0d65c4ff5cc398def83c1fda92a323c0824973b6"
+        },
+        {
+          "format": "OGG_VORBIS_320",
+          "file_id": "f682eea26b1fde403b963822ff609a496989e5aa"
+        },
+        {
+          "format": "AAC_24",
+          "file_id": "e6fe3ef56bb764b20ecef6f404b3c8f41c4dc2af"
+        }
+      ],
+      "previews": [
+        {
+          "format": "MP3_96",
+          "file_id": "374864d3c048f86511ff01d22ba6ed144e7fa5a4"
+        }
+      ],
+      "alternatives": [],
+      "tags": [],
+      "has_lyrics": false,
+      "language_of_performance": [
+        "de"
+      ],
+      "original_title": "Kapitel 18 - in Amerika (Folge 014)",
+      "version_title": ""
+    },
+    {
+      "uri": "spotify:track:1wEj4KtL6lutB1mVv0jBJk",
+      "name": "Kapitel 19 - in Amerika (Folge 014)",
+      "album": {
+        "uri": "spotify:album:7BLGgpfiTb4mhgcZ57wuzH",
+        "name": "Folge 14: in Amerika",
+        "artists": [
+          {
+            "uri": "spotify:artist:3t2iKODSDyzoDJw7AsD99u",
+            "name": "Bibi Blocksberg"
+          }
+        ],
+        "covers": [
+          {
+            "file_id": "ab67616d00001e02e1ed809b66792ae99ada8739",
+            "size": "DEFAULT",
+            "width": 300,
+            "height": 300
+          },
+          {
+            "file_id": "ab67616d00004851e1ed809b66792ae99ada8739",
+            "size": "SMALL",
+            "width": 64,
+            "height": 64
+          },
+          {
+            "file_id": "ab67616d0000b273e1ed809b66792ae99ada8739",
+            "size": "LARGE",
+            "width": 640,
+            "height": 640
+          }
+        ],
+        "date": "1984-01-01 0:00:00.0 +00:00:00",
+        "label": "Kiddinx/WM Germany",
+        "external_ids": []
+      },
+      "artists": [
+        {
+          "uri": "spotify:artist:3t2iKODSDyzoDJw7AsD99u",
+          "name": "Bibi Blocksberg"
+        }
+      ],
+      "artists_with_role": [
+        {
+          "uri": "spotify:artist:3t2iKODSDyzoDJw7AsD99u",
+          "name": "Bibi Blocksberg",
+          "role": "ARTIST_ROLE_MAIN_ARTIST"
+        }
+      ],
+      "number": 20,
+      "disc_number": 1,
+      "duration_ms": 67272,
+      "popularity": 35,
+      "is_explicit": false,
+      "external_ids": [
+        {
+          "external_type": "isrc",
+          "id": "DEB581508767"
+        }
+      ],
+      "files": [
+        {
+          "format": "OGG_VORBIS_160",
+          "file_id": "4a66577718a95b1c8760e49a18dac6d0f7e362aa"
+        },
+        {
+          "format": "AAC_24",
+          "file_id": "ff587d083f34a34ddf41a8edec2923779a298158"
+        },
+        {
+          "format": "OGG_VORBIS_320",
+          "file_id": "5c50f045d2201866584173a560e15e83d7b2ccb3"
+        },
+        {
+          "format": "OGG_VORBIS_96",
+          "file_id": "0333c9d00984404054d76a3d71e8b52d156c842c"
+        }
+      ],
+      "previews": [
+        {
+          "format": "MP3_96",
+          "file_id": "335377080c0649b4b42bcdee3c386509a424c378"
+        }
+      ],
+      "alternatives": [],
+      "tags": [],
+      "has_lyrics": false,
+      "language_of_performance": [
+        "de"
+      ],
+      "original_title": "Kapitel 19 - in Amerika (Folge 014)",
+      "version_title": ""
+    },
+    {
+      "uri": "spotify:track:4sX84YPcxdFwk8cghNWZK2",
+      "name": "Kapitel 20 - in Amerika (Folge 014)",
+      "album": {
+        "uri": "spotify:album:7BLGgpfiTb4mhgcZ57wuzH",
+        "name": "Folge 14: in Amerika",
+        "artists": [
+          {
+            "uri": "spotify:artist:3t2iKODSDyzoDJw7AsD99u",
+            "name": "Bibi Blocksberg"
+          }
+        ],
+        "covers": [
+          {
+            "file_id": "ab67616d00001e02e1ed809b66792ae99ada8739",
+            "size": "DEFAULT",
+            "width": 300,
+            "height": 300
+          },
+          {
+            "file_id": "ab67616d00004851e1ed809b66792ae99ada8739",
+            "size": "SMALL",
+            "width": 64,
+            "height": 64
+          },
+          {
+            "file_id": "ab67616d0000b273e1ed809b66792ae99ada8739",
+            "size": "LARGE",
+            "width": 640,
+            "height": 640
+          }
+        ],
+        "date": "1984-01-01 0:00:00.0 +00:00:00",
+        "label": "Kiddinx/WM Germany",
+        "external_ids": []
+      },
+      "artists": [
+        {
+          "uri": "spotify:artist:3t2iKODSDyzoDJw7AsD99u",
+          "name": "Bibi Blocksberg"
+        }
+      ],
+      "artists_with_role": [
+        {
+          "uri": "spotify:artist:3t2iKODSDyzoDJw7AsD99u",
+          "name": "Bibi Blocksberg",
+          "role": "ARTIST_ROLE_MAIN_ARTIST"
+        }
+      ],
+      "number": 21,
+      "disc_number": 1,
+      "duration_ms": 57163,
+      "popularity": 35,
+      "is_explicit": false,
+      "external_ids": [
+        {
+          "external_type": "isrc",
+          "id": "DEB581508768"
+        }
+      ],
+      "files": [
+        {
+          "format": "AAC_24",
+          "file_id": "0ce60fb41cf7e8a2124df80182acd3279afc09e6"
+        },
+        {
+          "format": "OGG_VORBIS_96",
+          "file_id": "83f706f4641b2b88cc0a5fb23738f0838f0be967"
+        },
+        {
+          "format": "OGG_VORBIS_320",
+          "file_id": "03fe42a038152afd276571321a85a70162f1cc8f"
+        },
+        {
+          "format": "OGG_VORBIS_160",
+          "file_id": "bf7a1237da0d52d3da4452e8911aa798f960657a"
+        }
+      ],
+      "previews": [
+        {
+          "format": "MP3_96",
+          "file_id": "60229b2a52172505669a676384f480c605f167cf"
+        }
+      ],
+      "alternatives": [],
+      "tags": [],
+      "has_lyrics": false,
+      "language_of_performance": [
+        "de"
+      ],
+      "original_title": "Kapitel 20 - in Amerika (Folge 014)",
+      "version_title": ""
+    },
+    {
+      "uri": "spotify:track:0raK2OXhqwH8JtTG6nNfvJ",
+      "name": "Kapitel 21 - in Amerika (Folge 014)",
+      "album": {
+        "uri": "spotify:album:7BLGgpfiTb4mhgcZ57wuzH",
+        "name": "Folge 14: in Amerika",
+        "artists": [
+          {
+            "uri": "spotify:artist:3t2iKODSDyzoDJw7AsD99u",
+            "name": "Bibi Blocksberg"
+          }
+        ],
+        "covers": [
+          {
+            "file_id": "ab67616d00001e02e1ed809b66792ae99ada8739",
+            "size": "DEFAULT",
+            "width": 300,
+            "height": 300
+          },
+          {
+            "file_id": "ab67616d00004851e1ed809b66792ae99ada8739",
+            "size": "SMALL",
+            "width": 64,
+            "height": 64
+          },
+          {
+            "file_id": "ab67616d0000b273e1ed809b66792ae99ada8739",
+            "size": "LARGE",
+            "width": 640,
+            "height": 640
+          }
+        ],
+        "date": "1984-01-01 0:00:00.0 +00:00:00",
+        "label": "Kiddinx/WM Germany",
+        "external_ids": []
+      },
+      "artists": [
+        {
+          "uri": "spotify:artist:3t2iKODSDyzoDJw7AsD99u",
+          "name": "Bibi Blocksberg"
+        }
+      ],
+      "artists_with_role": [
+        {
+          "uri": "spotify:artist:3t2iKODSDyzoDJw7AsD99u",
+          "name": "Bibi Blocksberg",
+          "role": "ARTIST_ROLE_MAIN_ARTIST"
+        }
+      ],
+      "number": 22,
+      "disc_number": 1,
+      "duration_ms": 52421,
+      "popularity": 35,
+      "is_explicit": false,
+      "external_ids": [
+        {
+          "external_type": "isrc",
+          "id": "DEB581508769"
+        }
+      ],
+      "files": [
+        {
+          "format": "AAC_24",
+          "file_id": "cac64124c7e154d0cd0c610049e92cf6098a11f0"
+        },
+        {
+          "format": "OGG_VORBIS_320",
+          "file_id": "5a0a763da0b155275183d27062f1bc9bc2c4d108"
+        },
+        {
+          "format": "OGG_VORBIS_160",
+          "file_id": "4e93ebc9169197e81bd4ba9c7995f875fff429fb"
+        },
+        {
+          "format": "OGG_VORBIS_96",
+          "file_id": "2b38d0a5dad362c39c1c34130d9deaf7300ffb3a"
+        }
+      ],
+      "previews": [
+        {
+          "format": "MP3_96",
+          "file_id": "54d49e9d01641ec578e6a2fb4bd6359d07cd6b49"
+        }
+      ],
+      "alternatives": [],
+      "tags": [],
+      "has_lyrics": false,
+      "language_of_performance": [
+        "de"
+      ],
+      "original_title": "Kapitel 21 - in Amerika (Folge 014)",
+      "version_title": ""
+    },
+    {
+      "uri": "spotify:track:7m1obPjPhrxT5NCKZHsaZB",
+      "name": "Kapitel 22 - in Amerika (Folge 014)",
+      "album": {
+        "uri": "spotify:album:7BLGgpfiTb4mhgcZ57wuzH",
+        "name": "Folge 14: in Amerika",
+        "artists": [
+          {
+            "uri": "spotify:artist:3t2iKODSDyzoDJw7AsD99u",
+            "name": "Bibi Blocksberg"
+          }
+        ],
+        "covers": [
+          {
+            "file_id": "ab67616d00001e02e1ed809b66792ae99ada8739",
+            "size": "DEFAULT",
+            "width": 300,
+            "height": 300
+          },
+          {
+            "file_id": "ab67616d00004851e1ed809b66792ae99ada8739",
+            "size": "SMALL",
+            "width": 64,
+            "height": 64
+          },
+          {
+            "file_id": "ab67616d0000b273e1ed809b66792ae99ada8739",
+            "size": "LARGE",
+            "width": 640,
+            "height": 640
+          }
+        ],
+        "date": "1984-01-01 0:00:00.0 +00:00:00",
+        "label": "Kiddinx/WM Germany",
+        "external_ids": []
+      },
+      "artists": [
+        {
+          "uri": "spotify:artist:3t2iKODSDyzoDJw7AsD99u",
+          "name": "Bibi Blocksberg"
+        }
+      ],
+      "artists_with_role": [
+        {
+          "uri": "spotify:artist:3t2iKODSDyzoDJw7AsD99u",
+          "name": "Bibi Blocksberg",
+          "role": "ARTIST_ROLE_MAIN_ARTIST"
+        }
+      ],
+      "number": 23,
+      "disc_number": 1,
+      "duration_ms": 65830,
+      "popularity": 35,
+      "is_explicit": false,
+      "external_ids": [
+        {
+          "external_type": "isrc",
+          "id": "DEB581508770"
+        }
+      ],
+      "files": [
+        {
+          "format": "OGG_VORBIS_96",
+          "file_id": "e80b25c6de8cad8214052ae6d42a233e687bbb3e"
+        },
+        {
+          "format": "AAC_24",
+          "file_id": "9307c15af9dfc4401d0603045c6a097de857dabc"
+        },
+        {
+          "format": "OGG_VORBIS_320",
+          "file_id": "c3a90af8cbb7cbc60a85807278281dc539cdba95"
+        },
+        {
+          "format": "OGG_VORBIS_160",
+          "file_id": "e3f559cbedb7d28f6f1e04599553b878fc7ac8b2"
+        }
+      ],
+      "previews": [
+        {
+          "format": "MP3_96",
+          "file_id": "dc955eb59f675d6a92d4555a4bde0029895cb6aa"
+        }
+      ],
+      "alternatives": [],
+      "tags": [],
+      "has_lyrics": false,
+      "language_of_performance": [
+        "de"
+      ],
+      "original_title": "Kapitel 22 - in Amerika (Folge 014)",
+      "version_title": ""
+    },
+    {
+      "uri": "spotify:track:1RvngaI8odLrqKmBzAxxTT",
+      "name": "Kapitel 23 - in Amerika (Folge 014)",
+      "album": {
+        "uri": "spotify:album:7BLGgpfiTb4mhgcZ57wuzH",
+        "name": "Folge 14: in Amerika",
+        "artists": [
+          {
+            "uri": "spotify:artist:3t2iKODSDyzoDJw7AsD99u",
+            "name": "Bibi Blocksberg"
+          }
+        ],
+        "covers": [
+          {
+            "file_id": "ab67616d00001e02e1ed809b66792ae99ada8739",
+            "size": "DEFAULT",
+            "width": 300,
+            "height": 300
+          },
+          {
+            "file_id": "ab67616d00004851e1ed809b66792ae99ada8739",
+            "size": "SMALL",
+            "width": 64,
+            "height": 64
+          },
+          {
+            "file_id": "ab67616d0000b273e1ed809b66792ae99ada8739",
+            "size": "LARGE",
+            "width": 640,
+            "height": 640
+          }
+        ],
+        "date": "1984-01-01 0:00:00.0 +00:00:00",
+        "label": "Kiddinx/WM Germany",
+        "external_ids": []
+      },
+      "artists": [
+        {
+          "uri": "spotify:artist:3t2iKODSDyzoDJw7AsD99u",
+          "name": "Bibi Blocksberg"
+        }
+      ],
+      "artists_with_role": [
+        {
+          "uri": "spotify:artist:3t2iKODSDyzoDJw7AsD99u",
+          "name": "Bibi Blocksberg",
+          "role": "ARTIST_ROLE_MAIN_ARTIST"
+        }
+      ],
+      "number": 24,
+      "disc_number": 1,
+      "duration_ms": 68637,
+      "popularity": 35,
+      "is_explicit": false,
+      "external_ids": [
+        {
+          "external_type": "isrc",
+          "id": "DEB581508771"
+        }
+      ],
+      "files": [
+        {
+          "format": "OGG_VORBIS_160",
+          "file_id": "eb749807c9b3d7edb2e3daa4c63ae2a09b3acf41"
+        },
+        {
+          "format": "OGG_VORBIS_96",
+          "file_id": "54e09caa038842484ba7823d5945aaef0876002e"
+        },
+        {
+          "format": "AAC_24",
+          "file_id": "003a22dc9f303df44968ca28e155e30e93cebe6e"
+        },
+        {
+          "format": "OGG_VORBIS_320",
+          "file_id": "754edd0fd4b8499d4f8a0c11bcce3fd9be375adb"
+        }
+      ],
+      "previews": [
+        {
+          "format": "MP3_96",
+          "file_id": "6be7ce4e00ce56e81d7791724a17f60a2e25367a"
+        }
+      ],
+      "alternatives": [],
+      "tags": [],
+      "has_lyrics": false,
+      "language_of_performance": [
+        "de"
+      ],
+      "original_title": "Kapitel 23 - in Amerika (Folge 014)",
+      "version_title": ""
+    },
+    {
+      "uri": "spotify:track:2dG2FRggJLtebI727LkcCu",
+      "name": "Kapitel 24 - in Amerika (Folge 014)",
+      "album": {
+        "uri": "spotify:album:7BLGgpfiTb4mhgcZ57wuzH",
+        "name": "Folge 14: in Amerika",
+        "artists": [
+          {
+            "uri": "spotify:artist:3t2iKODSDyzoDJw7AsD99u",
+            "name": "Bibi Blocksberg"
+          }
+        ],
+        "covers": [
+          {
+            "file_id": "ab67616d00001e02e1ed809b66792ae99ada8739",
+            "size": "DEFAULT",
+            "width": 300,
+            "height": 300
+          },
+          {
+            "file_id": "ab67616d00004851e1ed809b66792ae99ada8739",
+            "size": "SMALL",
+            "width": 64,
+            "height": 64
+          },
+          {
+            "file_id": "ab67616d0000b273e1ed809b66792ae99ada8739",
+            "size": "LARGE",
+            "width": 640,
+            "height": 640
+          }
+        ],
+        "date": "1984-01-01 0:00:00.0 +00:00:00",
+        "label": "Kiddinx/WM Germany",
+        "external_ids": []
+      },
+      "artists": [
+        {
+          "uri": "spotify:artist:3t2iKODSDyzoDJw7AsD99u",
+          "name": "Bibi Blocksberg"
+        }
+      ],
+      "artists_with_role": [
+        {
+          "uri": "spotify:artist:3t2iKODSDyzoDJw7AsD99u",
+          "name": "Bibi Blocksberg",
+          "role": "ARTIST_ROLE_MAIN_ARTIST"
+        }
+      ],
+      "number": 25,
+      "disc_number": 1,
+      "duration_ms": 62468,
+      "popularity": 35,
+      "is_explicit": false,
+      "external_ids": [
+        {
+          "external_type": "isrc",
+          "id": "DEB581508772"
+        }
+      ],
+      "files": [
+        {
+          "format": "OGG_VORBIS_160",
+          "file_id": "d4591871bdb72f531c4b549ffd0792db08f2de10"
+        },
+        {
+          "format": "OGG_VORBIS_96",
+          "file_id": "1b1a6800b16b231a42d6dd83aafb7f935eeaf09c"
+        },
+        {
+          "format": "AAC_24",
+          "file_id": "0e1008f043050d3175542c6ff72e7af13b5c5b28"
+        },
+        {
+          "format": "OGG_VORBIS_320",
+          "file_id": "ecb39806e6d8948a85a3e9075ab3276aaf9178ad"
+        }
+      ],
+      "previews": [
+        {
+          "format": "MP3_96",
+          "file_id": "1375f354a57d0869f6cf0f1d5ecc72057cd1d526"
+        }
+      ],
+      "alternatives": [],
+      "tags": [],
+      "has_lyrics": false,
+      "language_of_performance": [
+        "de"
+      ],
+      "original_title": "Kapitel 24 - in Amerika (Folge 014)",
+      "version_title": ""
+    },
+    {
+      "uri": "spotify:track:2OymlEHp4V2gSoPNVlYZXc",
+      "name": "Kapitel 25 - in Amerika (Folge 014)",
+      "album": {
+        "uri": "spotify:album:7BLGgpfiTb4mhgcZ57wuzH",
+        "name": "Folge 14: in Amerika",
+        "artists": [
+          {
+            "uri": "spotify:artist:3t2iKODSDyzoDJw7AsD99u",
+            "name": "Bibi Blocksberg"
+          }
+        ],
+        "covers": [
+          {
+            "file_id": "ab67616d00001e02e1ed809b66792ae99ada8739",
+            "size": "DEFAULT",
+            "width": 300,
+            "height": 300
+          },
+          {
+            "file_id": "ab67616d00004851e1ed809b66792ae99ada8739",
+            "size": "SMALL",
+            "width": 64,
+            "height": 64
+          },
+          {
+            "file_id": "ab67616d0000b273e1ed809b66792ae99ada8739",
+            "size": "LARGE",
+            "width": 640,
+            "height": 640
+          }
+        ],
+        "date": "1984-01-01 0:00:00.0 +00:00:00",
+        "label": "Kiddinx/WM Germany",
+        "external_ids": []
+      },
+      "artists": [
+        {
+          "uri": "spotify:artist:3t2iKODSDyzoDJw7AsD99u",
+          "name": "Bibi Blocksberg"
+        }
+      ],
+      "artists_with_role": [
+        {
+          "uri": "spotify:artist:3t2iKODSDyzoDJw7AsD99u",
+          "name": "Bibi Blocksberg",
+          "role": "ARTIST_ROLE_MAIN_ARTIST"
+        }
+      ],
+      "number": 26,
+      "disc_number": 1,
+      "duration_ms": 65987,
+      "popularity": 35,
+      "is_explicit": false,
+      "external_ids": [
+        {
+          "external_type": "isrc",
+          "id": "DEB581508773"
+        }
+      ],
+      "files": [
+        {
+          "format": "OGG_VORBIS_320",
+          "file_id": "87218959f1c6a2c774c006eaac38fa5d24d2abb9"
+        },
+        {
+          "format": "AAC_24",
+          "file_id": "e35fe80bbb53fad4f8f1d8cb3455f1f317c78a1f"
+        },
+        {
+          "format": "OGG_VORBIS_96",
+          "file_id": "0685c98c1e833677686ca2a8162eabd96785fbe4"
+        },
+        {
+          "format": "OGG_VORBIS_160",
+          "file_id": "a89c9d02b992ee2b64952915f5bb44e65d14381b"
+        }
+      ],
+      "previews": [
+        {
+          "format": "MP3_96",
+          "file_id": "cbecae1e65fb7b8fe65e4f43c61dea97a82293d5"
+        }
+      ],
+      "alternatives": [],
+      "tags": [],
+      "has_lyrics": false,
+      "language_of_performance": [
+        "de"
+      ],
+      "original_title": "Kapitel 25 - in Amerika (Folge 014)",
+      "version_title": ""
+    },
+    {
+      "uri": "spotify:track:6zubVTEpkX4kpmnr9ebHEB",
+      "name": "Kapitel 26 - in Amerika (Folge 014)",
+      "album": {
+        "uri": "spotify:album:7BLGgpfiTb4mhgcZ57wuzH",
+        "name": "Folge 14: in Amerika",
+        "artists": [
+          {
+            "uri": "spotify:artist:3t2iKODSDyzoDJw7AsD99u",
+            "name": "Bibi Blocksberg"
+          }
+        ],
+        "covers": [
+          {
+            "file_id": "ab67616d00001e02e1ed809b66792ae99ada8739",
+            "size": "DEFAULT",
+            "width": 300,
+            "height": 300
+          },
+          {
+            "file_id": "ab67616d00004851e1ed809b66792ae99ada8739",
+            "size": "SMALL",
+            "width": 64,
+            "height": 64
+          },
+          {
+            "file_id": "ab67616d0000b273e1ed809b66792ae99ada8739",
+            "size": "LARGE",
+            "width": 640,
+            "height": 640
+          }
+        ],
+        "date": "1984-01-01 0:00:00.0 +00:00:00",
+        "label": "Kiddinx/WM Germany",
+        "external_ids": []
+      },
+      "artists": [
+        {
+          "uri": "spotify:artist:3t2iKODSDyzoDJw7AsD99u",
+          "name": "Bibi Blocksberg"
+        }
+      ],
+      "artists_with_role": [
+        {
+          "uri": "spotify:artist:3t2iKODSDyzoDJw7AsD99u",
+          "name": "Bibi Blocksberg",
+          "role": "ARTIST_ROLE_MAIN_ARTIST"
+        }
+      ],
+      "number": 27,
+      "disc_number": 1,
+      "duration_ms": 61766,
+      "popularity": 35,
+      "is_explicit": false,
+      "external_ids": [
+        {
+          "external_type": "isrc",
+          "id": "DEB581508774"
+        }
+      ],
+      "files": [
+        {
+          "format": "OGG_VORBIS_160",
+          "file_id": "c54646aaea4623b4ae8cefc4c94f5b9c1a90581c"
+        },
+        {
+          "format": "OGG_VORBIS_320",
+          "file_id": "792487003b9c7989d405978b72109fe36a57424f"
+        },
+        {
+          "format": "OGG_VORBIS_96",
+          "file_id": "cfbccf870a0132dc81708137cae85f14c5c459c3"
+        },
+        {
+          "format": "AAC_24",
+          "file_id": "4b1d46d4d55043855224073e043248deca6d14cd"
+        }
+      ],
+      "previews": [
+        {
+          "format": "MP3_96",
+          "file_id": "22820bd61455c270d9e0ccb3d62f43b41c3932d7"
+        }
+      ],
+      "alternatives": [],
+      "tags": [],
+      "has_lyrics": false,
+      "language_of_performance": [
+        "de"
+      ],
+      "original_title": "Kapitel 26 - in Amerika (Folge 014)",
+      "version_title": ""
+    },
+    {
+      "uri": "spotify:track:4ljBrSbHgDcezi7BkMcpnE",
+      "name": "Kapitel 27 - in Amerika (Folge 014)",
+      "album": {
+        "uri": "spotify:album:7BLGgpfiTb4mhgcZ57wuzH",
+        "name": "Folge 14: in Amerika",
+        "artists": [
+          {
+            "uri": "spotify:artist:3t2iKODSDyzoDJw7AsD99u",
+            "name": "Bibi Blocksberg"
+          }
+        ],
+        "covers": [
+          {
+            "file_id": "ab67616d00001e02e1ed809b66792ae99ada8739",
+            "size": "DEFAULT",
+            "width": 300,
+            "height": 300
+          },
+          {
+            "file_id": "ab67616d00004851e1ed809b66792ae99ada8739",
+            "size": "SMALL",
+            "width": 64,
+            "height": 64
+          },
+          {
+            "file_id": "ab67616d0000b273e1ed809b66792ae99ada8739",
+            "size": "LARGE",
+            "width": 640,
+            "height": 640
+          }
+        ],
+        "date": "1984-01-01 0:00:00.0 +00:00:00",
+        "label": "Kiddinx/WM Germany",
+        "external_ids": []
+      },
+      "artists": [
+        {
+          "uri": "spotify:artist:3t2iKODSDyzoDJw7AsD99u",
+          "name": "Bibi Blocksberg"
+        }
+      ],
+      "artists_with_role": [
+        {
+          "uri": "spotify:artist:3t2iKODSDyzoDJw7AsD99u",
+          "name": "Bibi Blocksberg",
+          "role": "ARTIST_ROLE_MAIN_ARTIST"
+        }
+      ],
+      "number": 28,
+      "disc_number": 1,
+      "duration_ms": 63260,
+      "popularity": 35,
+      "is_explicit": false,
+      "external_ids": [
+        {
+          "external_type": "isrc",
+          "id": "DEB581508775"
+        }
+      ],
+      "files": [
+        {
+          "format": "OGG_VORBIS_320",
+          "file_id": "cb611189d54fae33c313db5522fcbbb206b928a2"
+        },
+        {
+          "format": "AAC_24",
+          "file_id": "405f06323a305c4d16d092cc1d5874ae71a58b97"
+        },
+        {
+          "format": "OGG_VORBIS_160",
+          "file_id": "fd613190ee8f7a63b596bf72a0a43198f086aa20"
+        },
+        {
+          "format": "OGG_VORBIS_96",
+          "file_id": "f00fee5a74c7b77f8b081b07177ffd244adaea4b"
+        }
+      ],
+      "previews": [
+        {
+          "format": "MP3_96",
+          "file_id": "100ee5106fd0e4848adc582e8b76308c90815fa8"
+        }
+      ],
+      "alternatives": [],
+      "tags": [],
+      "has_lyrics": false,
+      "language_of_performance": [
+        "de"
+      ],
+      "original_title": "Kapitel 27 - in Amerika (Folge 014)",
+      "version_title": ""
+    },
+    {
+      "uri": "spotify:track:0OATP7kC7FzkPPFU4IN5oo",
+      "name": "Kapitel 28 - in Amerika (Folge 014)",
+      "album": {
+        "uri": "spotify:album:7BLGgpfiTb4mhgcZ57wuzH",
+        "name": "Folge 14: in Amerika",
+        "artists": [
+          {
+            "uri": "spotify:artist:3t2iKODSDyzoDJw7AsD99u",
+            "name": "Bibi Blocksberg"
+          }
+        ],
+        "covers": [
+          {
+            "file_id": "ab67616d00001e02e1ed809b66792ae99ada8739",
+            "size": "DEFAULT",
+            "width": 300,
+            "height": 300
+          },
+          {
+            "file_id": "ab67616d00004851e1ed809b66792ae99ada8739",
+            "size": "SMALL",
+            "width": 64,
+            "height": 64
+          },
+          {
+            "file_id": "ab67616d0000b273e1ed809b66792ae99ada8739",
+            "size": "LARGE",
+            "width": 640,
+            "height": 640
+          }
+        ],
+        "date": "1984-01-01 0:00:00.0 +00:00:00",
+        "label": "Kiddinx/WM Germany",
+        "external_ids": []
+      },
+      "artists": [
+        {
+          "uri": "spotify:artist:3t2iKODSDyzoDJw7AsD99u",
+          "name": "Bibi Blocksberg"
+        }
+      ],
+      "artists_with_role": [
+        {
+          "uri": "spotify:artist:3t2iKODSDyzoDJw7AsD99u",
+          "name": "Bibi Blocksberg",
+          "role": "ARTIST_ROLE_MAIN_ARTIST"
+        }
+      ],
+      "number": 29,
+      "disc_number": 1,
+      "duration_ms": 57615,
+      "popularity": 35,
+      "is_explicit": false,
+      "external_ids": [
+        {
+          "external_type": "isrc",
+          "id": "DEB581508776"
+        }
+      ],
+      "files": [
+        {
+          "format": "OGG_VORBIS_320",
+          "file_id": "9e6be28a7483ebd7c7b20954cf1ac69cf6403b80"
+        },
+        {
+          "format": "OGG_VORBIS_160",
+          "file_id": "8ef7eac34149d6bc10a3bc96a64f699cd3d4242c"
+        },
+        {
+          "format": "OGG_VORBIS_96",
+          "file_id": "04e249ff0e273dfdf1c022ceb25386196b0cd9fc"
+        },
+        {
+          "format": "AAC_24",
+          "file_id": "62aff00ffffe74ee3df53230c15ece35032c4976"
+        }
+      ],
+      "previews": [
+        {
+          "format": "MP3_96",
+          "file_id": "6c91c7db94576f9b9b20e8592ef64258048aca1f"
+        }
+      ],
+      "alternatives": [],
+      "tags": [],
+      "has_lyrics": false,
+      "language_of_performance": [
+        "de"
+      ],
+      "original_title": "Kapitel 28 - in Amerika (Folge 014)",
+      "version_title": ""
+    },
+    {
+      "uri": "spotify:track:6oeIiZhCrCWZq8tvK2Q3jS",
+      "name": "Kapitel 29 - in Amerika (Folge 014)",
+      "album": {
+        "uri": "spotify:album:7BLGgpfiTb4mhgcZ57wuzH",
+        "name": "Folge 14: in Amerika",
+        "artists": [
+          {
+            "uri": "spotify:artist:3t2iKODSDyzoDJw7AsD99u",
+            "name": "Bibi Blocksberg"
+          }
+        ],
+        "covers": [
+          {
+            "file_id": "ab67616d00001e02e1ed809b66792ae99ada8739",
+            "size": "DEFAULT",
+            "width": 300,
+            "height": 300
+          },
+          {
+            "file_id": "ab67616d00004851e1ed809b66792ae99ada8739",
+            "size": "SMALL",
+            "width": 64,
+            "height": 64
+          },
+          {
+            "file_id": "ab67616d0000b273e1ed809b66792ae99ada8739",
+            "size": "LARGE",
+            "width": 640,
+            "height": 640
+          }
+        ],
+        "date": "1984-01-01 0:00:00.0 +00:00:00",
+        "label": "Kiddinx/WM Germany",
+        "external_ids": []
+      },
+      "artists": [
+        {
+          "uri": "spotify:artist:3t2iKODSDyzoDJw7AsD99u",
+          "name": "Bibi Blocksberg"
+        }
+      ],
+      "artists_with_role": [
+        {
+          "uri": "spotify:artist:3t2iKODSDyzoDJw7AsD99u",
+          "name": "Bibi Blocksberg",
+          "role": "ARTIST_ROLE_MAIN_ARTIST"
+        }
+      ],
+      "number": 30,
+      "disc_number": 1,
+      "duration_ms": 69240,
+      "popularity": 35,
+      "is_explicit": false,
+      "external_ids": [
+        {
+          "external_type": "isrc",
+          "id": "DEB581508777"
+        }
+      ],
+      "files": [
+        {
+          "format": "OGG_VORBIS_160",
+          "file_id": "75646f7c66156ce0195c725f30ebb800ce48da53"
+        },
+        {
+          "format": "OGG_VORBIS_320",
+          "file_id": "8179ea6c55acdbb99035843bcbaff5470f657df3"
+        },
+        {
+          "format": "AAC_24",
+          "file_id": "d02e59b61088850bd701dae77fed1389177c2130"
+        },
+        {
+          "format": "OGG_VORBIS_96",
+          "file_id": "b55c9228fae238a59131cd21b67604d4a7307bd0"
+        }
+      ],
+      "previews": [
+        {
+          "format": "MP3_96",
+          "file_id": "c505cffd7cc76cd7b6349d0d9be17db05b7a8aca"
+        }
+      ],
+      "alternatives": [],
+      "tags": [],
+      "has_lyrics": false,
+      "language_of_performance": [
+        "de"
+      ],
+      "original_title": "Kapitel 29 - in Amerika (Folge 014)",
+      "version_title": ""
+    },
+    {
+      "uri": "spotify:track:2I69iU4XxheBbP8eD4f1l4",
+      "name": "Kapitel 30 - in Amerika (Folge 014)",
+      "album": {
+        "uri": "spotify:album:7BLGgpfiTb4mhgcZ57wuzH",
+        "name": "Folge 14: in Amerika",
+        "artists": [
+          {
+            "uri": "spotify:artist:3t2iKODSDyzoDJw7AsD99u",
+            "name": "Bibi Blocksberg"
+          }
+        ],
+        "covers": [
+          {
+            "file_id": "ab67616d00001e02e1ed809b66792ae99ada8739",
+            "size": "DEFAULT",
+            "width": 300,
+            "height": 300
+          },
+          {
+            "file_id": "ab67616d00004851e1ed809b66792ae99ada8739",
+            "size": "SMALL",
+            "width": 64,
+            "height": 64
+          },
+          {
+            "file_id": "ab67616d0000b273e1ed809b66792ae99ada8739",
+            "size": "LARGE",
+            "width": 640,
+            "height": 640
+          }
+        ],
+        "date": "1984-01-01 0:00:00.0 +00:00:00",
+        "label": "Kiddinx/WM Germany",
+        "external_ids": []
+      },
+      "artists": [
+        {
+          "uri": "spotify:artist:3t2iKODSDyzoDJw7AsD99u",
+          "name": "Bibi Blocksberg"
+        }
+      ],
+      "artists_with_role": [
+        {
+          "uri": "spotify:artist:3t2iKODSDyzoDJw7AsD99u",
+          "name": "Bibi Blocksberg",
+          "role": "ARTIST_ROLE_MAIN_ARTIST"
+        }
+      ],
+      "number": 31,
+      "disc_number": 1,
+      "duration_ms": 60662,
+      "popularity": 34,
+      "is_explicit": false,
+      "external_ids": [
+        {
+          "external_type": "isrc",
+          "id": "DEB581508778"
+        }
+      ],
+      "files": [
+        {
+          "format": "OGG_VORBIS_320",
+          "file_id": "2346c677bab9b012fe0b7197a9a46d4374dc3465"
+        },
+        {
+          "format": "OGG_VORBIS_96",
+          "file_id": "4ca4acbf6463a378019338fd03c2e644b8a01ac5"
+        },
+        {
+          "format": "AAC_24",
+          "file_id": "bfece29803f6e1553aa69adb58d1aa81f6fd68b5"
+        },
+        {
+          "format": "OGG_VORBIS_160",
+          "file_id": "2e998e01a8934508bf3f059fef0033aa1480c513"
+        }
+      ],
+      "previews": [
+        {
+          "format": "MP3_96",
+          "file_id": "3b0674c94e4d7a55180b8999fab5b8a0cc035382"
+        }
+      ],
+      "alternatives": [],
+      "tags": [],
+      "has_lyrics": false,
+      "language_of_performance": [
+        "de"
+      ],
+      "original_title": "Kapitel 30 - in Amerika (Folge 014)",
+      "version_title": ""
+    },
+    {
+      "uri": "spotify:track:35jGzxp3jBavrZmzJwGdL9",
+      "name": "Kapitel 31 - in Amerika (Folge 014)",
+      "album": {
+        "uri": "spotify:album:7BLGgpfiTb4mhgcZ57wuzH",
+        "name": "Folge 14: in Amerika",
+        "artists": [
+          {
+            "uri": "spotify:artist:3t2iKODSDyzoDJw7AsD99u",
+            "name": "Bibi Blocksberg"
+          }
+        ],
+        "covers": [
+          {
+            "file_id": "ab67616d00001e02e1ed809b66792ae99ada8739",
+            "size": "DEFAULT",
+            "width": 300,
+            "height": 300
+          },
+          {
+            "file_id": "ab67616d00004851e1ed809b66792ae99ada8739",
+            "size": "SMALL",
+            "width": 64,
+            "height": 64
+          },
+          {
+            "file_id": "ab67616d0000b273e1ed809b66792ae99ada8739",
+            "size": "LARGE",
+            "width": 640,
+            "height": 640
+          }
+        ],
+        "date": "1984-01-01 0:00:00.0 +00:00:00",
+        "label": "Kiddinx/WM Germany",
+        "external_ids": []
+      },
+      "artists": [
+        {
+          "uri": "spotify:artist:3t2iKODSDyzoDJw7AsD99u",
+          "name": "Bibi Blocksberg"
+        }
+      ],
+      "artists_with_role": [
+        {
+          "uri": "spotify:artist:3t2iKODSDyzoDJw7AsD99u",
+          "name": "Bibi Blocksberg",
+          "role": "ARTIST_ROLE_MAIN_ARTIST"
+        }
+      ],
+      "number": 32,
+      "disc_number": 1,
+      "duration_ms": 70742,
+      "popularity": 34,
+      "is_explicit": false,
+      "external_ids": [
+        {
+          "external_type": "isrc",
+          "id": "DEB581508779"
+        }
+      ],
+      "files": [
+        {
+          "format": "OGG_VORBIS_96",
+          "file_id": "2f8aef40bb7e9979951d25ccad0711abccb32963"
+        },
+        {
+          "format": "OGG_VORBIS_320",
+          "file_id": "86bb990573615fda132c80d19df1b9949b7d7c12"
+        },
+        {
+          "format": "OGG_VORBIS_160",
+          "file_id": "3115a340228cda9de247b1a9a5e8fc7502795b27"
+        },
+        {
+          "format": "AAC_24",
+          "file_id": "27c2ca592f8b2338e6b21cbb5adeb22be5a22936"
+        }
+      ],
+      "previews": [
+        {
+          "format": "MP3_96",
+          "file_id": "fb50d9a89c0de9818ce3ed615b7d0eb7a0ae8c6f"
+        }
+      ],
+      "alternatives": [],
+      "tags": [],
+      "has_lyrics": false,
+      "language_of_performance": [
+        "de"
+      ],
+      "original_title": "Kapitel 31 - in Amerika (Folge 014)",
+      "version_title": ""
+    },
+    {
+      "uri": "spotify:track:3w3Qn7zkzIopOICPxX7dgv",
+      "name": "Kapitel 32 - in Amerika (Folge 014)",
+      "album": {
+        "uri": "spotify:album:7BLGgpfiTb4mhgcZ57wuzH",
+        "name": "Folge 14: in Amerika",
+        "artists": [
+          {
+            "uri": "spotify:artist:3t2iKODSDyzoDJw7AsD99u",
+            "name": "Bibi Blocksberg"
+          }
+        ],
+        "covers": [
+          {
+            "file_id": "ab67616d00001e02e1ed809b66792ae99ada8739",
+            "size": "DEFAULT",
+            "width": 300,
+            "height": 300
+          },
+          {
+            "file_id": "ab67616d00004851e1ed809b66792ae99ada8739",
+            "size": "SMALL",
+            "width": 64,
+            "height": 64
+          },
+          {
+            "file_id": "ab67616d0000b273e1ed809b66792ae99ada8739",
+            "size": "LARGE",
+            "width": 640,
+            "height": 640
+          }
+        ],
+        "date": "1984-01-01 0:00:00.0 +00:00:00",
+        "label": "Kiddinx/WM Germany",
+        "external_ids": []
+      },
+      "artists": [
+        {
+          "uri": "spotify:artist:3t2iKODSDyzoDJw7AsD99u",
+          "name": "Bibi Blocksberg"
+        }
+      ],
+      "artists_with_role": [
+        {
+          "uri": "spotify:artist:3t2iKODSDyzoDJw7AsD99u",
+          "name": "Bibi Blocksberg",
+          "role": "ARTIST_ROLE_MAIN_ARTIST"
+        }
+      ],
+      "number": 33,
+      "disc_number": 1,
+      "duration_ms": 57068,
+      "popularity": 34,
+      "is_explicit": false,
+      "external_ids": [
+        {
+          "external_type": "isrc",
+          "id": "DEB581508780"
+        }
+      ],
+      "files": [
+        {
+          "format": "OGG_VORBIS_160",
+          "file_id": "8a51d89d4525c95662047284002b3b80e3162d13"
+        },
+        {
+          "format": "AAC_24",
+          "file_id": "a6b431c7748fc35342e2054a461794f11388affe"
+        },
+        {
+          "format": "OGG_VORBIS_320",
+          "file_id": "6dfaeec27ae525c0e3b1c896854d0384d3d425ba"
+        },
+        {
+          "format": "OGG_VORBIS_96",
+          "file_id": "a81e5726bdba87bcd3e1c4aa1c2e95673fe9876b"
+        }
+      ],
+      "previews": [
+        {
+          "format": "MP3_96",
+          "file_id": "84d5a19f8f88ecc62ab2688f6b069fce97369f7e"
+        }
+      ],
+      "alternatives": [],
+      "tags": [],
+      "has_lyrics": false,
+      "language_of_performance": [
+        "de"
+      ],
+      "original_title": "Kapitel 32 - in Amerika (Folge 014)",
+      "version_title": ""
+    },
+    {
+      "uri": "spotify:track:0znRfPon32r6qG23RFhFOp",
+      "name": "Kapitel 33 - in Amerika (Folge 014)",
+      "album": {
+        "uri": "spotify:album:7BLGgpfiTb4mhgcZ57wuzH",
+        "name": "Folge 14: in Amerika",
+        "artists": [
+          {
+            "uri": "spotify:artist:3t2iKODSDyzoDJw7AsD99u",
+            "name": "Bibi Blocksberg"
+          }
+        ],
+        "covers": [
+          {
+            "file_id": "ab67616d00001e02e1ed809b66792ae99ada8739",
+            "size": "DEFAULT",
+            "width": 300,
+            "height": 300
+          },
+          {
+            "file_id": "ab67616d00004851e1ed809b66792ae99ada8739",
+            "size": "SMALL",
+            "width": 64,
+            "height": 64
+          },
+          {
+            "file_id": "ab67616d0000b273e1ed809b66792ae99ada8739",
+            "size": "LARGE",
+            "width": 640,
+            "height": 640
+          }
+        ],
+        "date": "1984-01-01 0:00:00.0 +00:00:00",
+        "label": "Kiddinx/WM Germany",
+        "external_ids": []
+      },
+      "artists": [
+        {
+          "uri": "spotify:artist:3t2iKODSDyzoDJw7AsD99u",
+          "name": "Bibi Blocksberg"
+        }
+      ],
+      "artists_with_role": [
+        {
+          "uri": "spotify:artist:3t2iKODSDyzoDJw7AsD99u",
+          "name": "Bibi Blocksberg",
+          "role": "ARTIST_ROLE_MAIN_ARTIST"
+        }
+      ],
+      "number": 34,
+      "disc_number": 1,
+      "duration_ms": 58325,
+      "popularity": 34,
+      "is_explicit": false,
+      "external_ids": [
+        {
+          "external_type": "isrc",
+          "id": "DEB581508781"
+        }
+      ],
+      "files": [
+        {
+          "format": "OGG_VORBIS_160",
+          "file_id": "e1e50e3b44b8dfebc93ed20249f73a7c80f88a26"
+        },
+        {
+          "format": "OGG_VORBIS_96",
+          "file_id": "8799acc0d1baef1c3d3f0ba20344d2f1bf819508"
+        },
+        {
+          "format": "OGG_VORBIS_320",
+          "file_id": "00fd6dfd27c15f750e73a7378e67de2aa1c28d98"
+        },
+        {
+          "format": "AAC_24",
+          "file_id": "809ad003c90509eebe07551ecdd12ae0da0840ed"
+        }
+      ],
+      "previews": [
+        {
+          "format": "MP3_96",
+          "file_id": "97b5162ebc3d6bde74784d30cbab4bd21faa4438"
+        }
+      ],
+      "alternatives": [],
+      "tags": [],
+      "has_lyrics": false,
+      "language_of_performance": [
+        "de"
+      ],
+      "original_title": "Kapitel 33 - in Amerika (Folge 014)",
+      "version_title": ""
+    },
+    {
+      "uri": "spotify:track:1dWcnHOIG5ae1T8aSQUCbd",
+      "name": "Kapitel 34 - in Amerika (Folge 014)",
+      "album": {
+        "uri": "spotify:album:7BLGgpfiTb4mhgcZ57wuzH",
+        "name": "Folge 14: in Amerika",
+        "artists": [
+          {
+            "uri": "spotify:artist:3t2iKODSDyzoDJw7AsD99u",
+            "name": "Bibi Blocksberg"
+          }
+        ],
+        "covers": [
+          {
+            "file_id": "ab67616d00001e02e1ed809b66792ae99ada8739",
+            "size": "DEFAULT",
+            "width": 300,
+            "height": 300
+          },
+          {
+            "file_id": "ab67616d00004851e1ed809b66792ae99ada8739",
+            "size": "SMALL",
+            "width": 64,
+            "height": 64
+          },
+          {
+            "file_id": "ab67616d0000b273e1ed809b66792ae99ada8739",
+            "size": "LARGE",
+            "width": 640,
+            "height": 640
+          }
+        ],
+        "date": "1984-01-01 0:00:00.0 +00:00:00",
+        "label": "Kiddinx/WM Germany",
+        "external_ids": []
+      },
+      "artists": [
+        {
+          "uri": "spotify:artist:3t2iKODSDyzoDJw7AsD99u",
+          "name": "Bibi Blocksberg"
+        }
+      ],
+      "artists_with_role": [
+        {
+          "uri": "spotify:artist:3t2iKODSDyzoDJw7AsD99u",
+          "name": "Bibi Blocksberg",
+          "role": "ARTIST_ROLE_MAIN_ARTIST"
+        }
+      ],
+      "number": 35,
+      "disc_number": 1,
+      "duration_ms": 66486,
+      "popularity": 34,
+      "is_explicit": false,
+      "external_ids": [
+        {
+          "external_type": "isrc",
+          "id": "DEB581508782"
+        }
+      ],
+      "files": [
+        {
+          "format": "OGG_VORBIS_320",
+          "file_id": "4f71c74e1f829f7d85cd27371f4523de2032ee87"
+        },
+        {
+          "format": "OGG_VORBIS_160",
+          "file_id": "0c2084c097a6af86b1de8a5f9d678ba1917712c1"
+        },
+        {
+          "format": "AAC_24",
+          "file_id": "bba6d4058ebeba1e96c3c7b50f68c3b26e92abe7"
+        },
+        {
+          "format": "OGG_VORBIS_96",
+          "file_id": "96e91d0d3b634a1d8d11a4c76d2b09ea6f8b8fa2"
+        }
+      ],
+      "previews": [
+        {
+          "format": "MP3_96",
+          "file_id": "c3edc19cad5795fbce2fef0a2c7cd390adf0e0cb"
+        }
+      ],
+      "alternatives": [],
+      "tags": [],
+      "has_lyrics": false,
+      "language_of_performance": [
+        "de"
+      ],
+      "original_title": "Kapitel 34 - in Amerika (Folge 014)",
+      "version_title": ""
+    },
+    {
+      "uri": "spotify:track:0AfZ49vUqHV17G6RxCDNvC",
+      "name": "Kapitel 35 - in Amerika (Folge 014)",
+      "album": {
+        "uri": "spotify:album:7BLGgpfiTb4mhgcZ57wuzH",
+        "name": "Folge 14: in Amerika",
+        "artists": [
+          {
+            "uri": "spotify:artist:3t2iKODSDyzoDJw7AsD99u",
+            "name": "Bibi Blocksberg"
+          }
+        ],
+        "covers": [
+          {
+            "file_id": "ab67616d00001e02e1ed809b66792ae99ada8739",
+            "size": "DEFAULT",
+            "width": 300,
+            "height": 300
+          },
+          {
+            "file_id": "ab67616d00004851e1ed809b66792ae99ada8739",
+            "size": "SMALL",
+            "width": 64,
+            "height": 64
+          },
+          {
+            "file_id": "ab67616d0000b273e1ed809b66792ae99ada8739",
+            "size": "LARGE",
+            "width": 640,
+            "height": 640
+          }
+        ],
+        "date": "1984-01-01 0:00:00.0 +00:00:00",
+        "label": "Kiddinx/WM Germany",
+        "external_ids": []
+      },
+      "artists": [
+        {
+          "uri": "spotify:artist:3t2iKODSDyzoDJw7AsD99u",
+          "name": "Bibi Blocksberg"
+        }
+      ],
+      "artists_with_role": [
+        {
+          "uri": "spotify:artist:3t2iKODSDyzoDJw7AsD99u",
+          "name": "Bibi Blocksberg",
+          "role": "ARTIST_ROLE_MAIN_ARTIST"
+        }
+      ],
+      "number": 36,
+      "disc_number": 1,
+      "duration_ms": 64564,
+      "popularity": 34,
+      "is_explicit": false,
+      "external_ids": [
+        {
+          "external_type": "isrc",
+          "id": "DEB581508783"
+        }
+      ],
+      "files": [
+        {
+          "format": "OGG_VORBIS_96",
+          "file_id": "96c6983111ca6c0e2a2aa1df50ae294a7e056fd9"
+        },
+        {
+          "format": "AAC_24",
+          "file_id": "fbd135359680eaf59e3a60c69e9a98a8973ddc0a"
+        },
+        {
+          "format": "OGG_VORBIS_160",
+          "file_id": "d6bb85d30a35e522797efa1c4307fe0602b5e3a3"
+        },
+        {
+          "format": "OGG_VORBIS_320",
+          "file_id": "0f97f1b5a663fb08ed1295351dc157d6b3bad1fd"
+        }
+      ],
+      "previews": [
+        {
+          "format": "MP3_96",
+          "file_id": "50e5348cc4767316f0f509c7ad03161d41861b21"
+        }
+      ],
+      "alternatives": [],
+      "tags": [],
+      "has_lyrics": false,
+      "language_of_performance": [
+        "de"
+      ],
+      "original_title": "Kapitel 35 - in Amerika (Folge 014)",
+      "version_title": ""
+    },
+    {
+      "uri": "spotify:track:38ERLLCQjAJ2taTULDgPPJ",
+      "name": "Kapitel 36 - in Amerika (Folge 014)",
+      "album": {
+        "uri": "spotify:album:7BLGgpfiTb4mhgcZ57wuzH",
+        "name": "Folge 14: in Amerika",
+        "artists": [
+          {
+            "uri": "spotify:artist:3t2iKODSDyzoDJw7AsD99u",
+            "name": "Bibi Blocksberg"
+          }
+        ],
+        "covers": [
+          {
+            "file_id": "ab67616d00001e02e1ed809b66792ae99ada8739",
+            "size": "DEFAULT",
+            "width": 300,
+            "height": 300
+          },
+          {
+            "file_id": "ab67616d00004851e1ed809b66792ae99ada8739",
+            "size": "SMALL",
+            "width": 64,
+            "height": 64
+          },
+          {
+            "file_id": "ab67616d0000b273e1ed809b66792ae99ada8739",
+            "size": "LARGE",
+            "width": 640,
+            "height": 640
+          }
+        ],
+        "date": "1984-01-01 0:00:00.0 +00:00:00",
+        "label": "Kiddinx/WM Germany",
+        "external_ids": []
+      },
+      "artists": [
+        {
+          "uri": "spotify:artist:3t2iKODSDyzoDJw7AsD99u",
+          "name": "Bibi Blocksberg"
+        }
+      ],
+      "artists_with_role": [
+        {
+          "uri": "spotify:artist:3t2iKODSDyzoDJw7AsD99u",
+          "name": "Bibi Blocksberg",
+          "role": "ARTIST_ROLE_MAIN_ARTIST"
+        }
+      ],
+      "number": 37,
+      "disc_number": 1,
+      "duration_ms": 62686,
+      "popularity": 34,
+      "is_explicit": false,
+      "external_ids": [
+        {
+          "external_type": "isrc",
+          "id": "DEB581508784"
+        }
+      ],
+      "files": [
+        {
+          "format": "AAC_24",
+          "file_id": "6485dc181f06f509580224878901ad08e92ce561"
+        },
+        {
+          "format": "OGG_VORBIS_160",
+          "file_id": "0c61361b05302c6333d23f90c37aabb41a0f087b"
+        },
+        {
+          "format": "OGG_VORBIS_320",
+          "file_id": "766fcbc38356a23022f824b4499b5558a7c50f69"
+        },
+        {
+          "format": "OGG_VORBIS_96",
+          "file_id": "e26d77af06bee9d151a74303ad8b491355c80925"
+        }
+      ],
+      "previews": [
+        {
+          "format": "MP3_96",
+          "file_id": "a6e893bae1a3e0608913433d5fada61724b94114"
+        }
+      ],
+      "alternatives": [],
+      "tags": [],
+      "has_lyrics": false,
+      "language_of_performance": [
+        "de"
+      ],
+      "original_title": "Kapitel 36 - in Amerika (Folge 014)",
+      "version_title": ""
+    },
+    {
+      "uri": "spotify:track:0VSealsLmLFiFtoHoqB7nN",
+      "name": "Kapitel 37 - in Amerika (Folge 014)",
+      "album": {
+        "uri": "spotify:album:7BLGgpfiTb4mhgcZ57wuzH",
+        "name": "Folge 14: in Amerika",
+        "artists": [
+          {
+            "uri": "spotify:artist:3t2iKODSDyzoDJw7AsD99u",
+            "name": "Bibi Blocksberg"
+          }
+        ],
+        "covers": [
+          {
+            "file_id": "ab67616d00001e02e1ed809b66792ae99ada8739",
+            "size": "DEFAULT",
+            "width": 300,
+            "height": 300
+          },
+          {
+            "file_id": "ab67616d00004851e1ed809b66792ae99ada8739",
+            "size": "SMALL",
+            "width": 64,
+            "height": 64
+          },
+          {
+            "file_id": "ab67616d0000b273e1ed809b66792ae99ada8739",
+            "size": "LARGE",
+            "width": 640,
+            "height": 640
+          }
+        ],
+        "date": "1984-01-01 0:00:00.0 +00:00:00",
+        "label": "Kiddinx/WM Germany",
+        "external_ids": []
+      },
+      "artists": [
+        {
+          "uri": "spotify:artist:3t2iKODSDyzoDJw7AsD99u",
+          "name": "Bibi Blocksberg"
+        }
+      ],
+      "artists_with_role": [
+        {
+          "uri": "spotify:artist:3t2iKODSDyzoDJw7AsD99u",
+          "name": "Bibi Blocksberg",
+          "role": "ARTIST_ROLE_MAIN_ARTIST"
+        }
+      ],
+      "number": 38,
+      "disc_number": 1,
+      "duration_ms": 72821,
+      "popularity": 34,
+      "is_explicit": false,
+      "external_ids": [
+        {
+          "external_type": "isrc",
+          "id": "DEB581508785"
+        }
+      ],
+      "files": [
+        {
+          "format": "OGG_VORBIS_96",
+          "file_id": "0cf354da0033777b4b2d7d1b742be4dbb9c7ce3f"
+        },
+        {
+          "format": "OGG_VORBIS_320",
+          "file_id": "d6590e2cd76a8dc9cb7bfeeaa6eb1ee6446a51c8"
+        },
+        {
+          "format": "AAC_24",
+          "file_id": "b4fe24d23849b813c6ff745c7426cf148ad4c5a5"
+        },
+        {
+          "format": "OGG_VORBIS_160",
+          "file_id": "45cd6ca91747f6f0f3d15c246fbee0fd8d7eaf24"
+        }
+      ],
+      "previews": [
+        {
+          "format": "MP3_96",
+          "file_id": "0c8c0a469ac444e8435a37ba98682c2b1af072c9"
+        }
+      ],
+      "alternatives": [],
+      "tags": [],
+      "has_lyrics": false,
+      "language_of_performance": [
+        "de"
+      ],
+      "original_title": "Kapitel 37 - in Amerika (Folge 014)",
+      "version_title": ""
+    }
+  ]
+}

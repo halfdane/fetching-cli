@@ -25,7 +25,7 @@ fetching-cli reauth --credentials creds.json > creds.json
 
 ### `fetch` — Metadata
 
-Fetch metadata for any Spotify URI or URL. Supports tracks, albums, playlists, episodes, and shows.
+Fetch metadata for any Spotify URI or URL. Supports tracks, albums, playlists, episodes, shows, and artists.
 
 ```sh
 # By Spotify URI
@@ -34,6 +34,8 @@ fetching-cli fetch --credentials creds.json spotify:album:7FwAtuhhWivxvK4aPgyyUD
 # By URL
 fetching-cli fetch --credentials creds.json 'https://open.spotify.com/album/7FwAtuhhWivxvK4aPgyyUD'
 ```
+
+See [example JSON outputs](docs/) for each metadata type.
 
 ### `fetch` — Audio download
 
