@@ -77,20 +77,6 @@ fn find_format_for_file_id(
     None
 }
 
-/// Pick the best available format from an `AudioFiles` map.
-#[allow(dead_code)]
-fn best_format(files: &AudioFiles) -> Option<(FileId, AudioFileFormat)> {
-    FORMAT_PREFERENCE
-        .iter()
-        .find_map(|fmt| files.0.get(fmt).copied().map(|id| (id, *fmt)))
-        .or_else(|| {
-            files.0.iter().next().map(|(fmt, id)| {
-                warn!("Selecting unrecognised audio format {fmt:?}");
-                (*id, *fmt)
-            })
-        })
-}
-
 // ── Public API ────────────────────────────────────────────────────────────────
 
 /// Download audio for a specific file ID and write raw decrypted bytes to stdout.
@@ -206,52 +192,6 @@ pub async fn fetch_audio(
     info!("Wrote {bytes_written} bytes to stdout");
 
     Ok(())
-}
-
-/// Fetch audio for a track URI using the best available format.
-///
-/// This is a convenience that resolves the best file ID automatically,
-/// without requiring the caller to know a specific file ID.
-#[allow(dead_code)]
-pub async fn fetch_best_audio(
-    session: &Session,
-    track_uri_str: &str,
-) -> Result<(), CliError> {
-    info!("Fetching best audio for {track_uri_str}");
-
-    let track_uri = SpotifyUri::from_uri(track_uri_str).map_err(|e| {
-        CliError::with_source(
-            ExitCode::InvalidInput,
-            format!("Invalid track URI '{track_uri_str}': {e}"),
-            e.into(),
-        )
-    })?;
-
-    let audio_item = AudioItem::get_file(session, track_uri.clone())
-        .await
-        .map_err(|e| {
-            CliError::with_source(
-                ExitCode::ApiError,
-                format!("Failed to load AudioItem for {track_uri_str}: {e}"),
-                e.into(),
-            )
-        })?;
-
-    if let Err(ref e) = audio_item.availability {
-        warn!("Track may be unavailable: {e:?}");
-    }
-
-    let (file_id, format) = best_format(&audio_item.files).ok_or_else(|| {
-        CliError::new(
-            ExitCode::ApiError,
-            format!("No audio files available for {track_uri_str}"),
-        )
-    })?;
-
-    info!("Best format: {format:?}, file_id: {file_id}");
-
-    // Delegate to the file-id-based fetch
-    fetch_audio(session, &file_id.to_string(), track_uri_str).await
 }
 
 // ── Helpers ───────────────────────────────────────────────────────────────────

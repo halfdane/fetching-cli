@@ -308,6 +308,130 @@ async fn album_to_dto(
     }
 }
 
+// ── Full Artist DTO ───────────────────────────────────────────────────────────
+
+/// Biography entry.
+#[derive(Debug, Serialize)]
+pub struct BiographyDto {
+    pub text: String,
+    pub portraits: Vec<ImageDto>,
+}
+
+/// Activity period entry.
+#[derive(Debug, Serialize)]
+#[serde(tag = "kind")]
+pub enum ActivityPeriodDto {
+    #[serde(rename = "timespan")]
+    Timespan {
+        start_year: u16,
+        end_year: Option<u16>,
+    },
+    #[serde(rename = "decade")]
+    Decade { decade: u16 },
+}
+
+/// Top-tracks per country.
+#[derive(Debug, Serialize)]
+pub struct TopTracksDto {
+    pub country: String,
+    pub track_uris: Vec<String>,
+}
+
+/// Full artist metadata (as opposed to the lightweight `ArtistDto` reference).
+#[derive(Debug, Serialize)]
+pub struct FullArtistDto {
+    pub uri: String,
+    pub name: String,
+    pub popularity: i32,
+    pub top_tracks: Vec<TopTracksDto>,
+    pub album_uris: Vec<String>,
+    pub single_uris: Vec<String>,
+    pub compilation_uris: Vec<String>,
+    pub appears_on_album_uris: Vec<String>,
+    pub external_ids: Vec<ExternalIdDto>,
+    pub portraits: Vec<ImageDto>,
+    pub biographies: Vec<BiographyDto>,
+    pub activity_periods: Vec<ActivityPeriodDto>,
+    pub related_artist_uris: Vec<String>,
+    pub is_portrait_album_cover: bool,
+}
+
+fn artist_full_to_dto(a: &librespot_metadata::artist::Artist) -> FullArtistDto {
+    FullArtistDto {
+        uri: a.id.to_string(),
+        name: a.name.clone(),
+        popularity: a.popularity,
+        top_tracks: a
+            .top_tracks
+            .iter()
+            .map(|tt| TopTracksDto {
+                country: tt.country.clone(),
+                track_uris: tt.tracks.iter().map(|u| u.to_string()).collect(),
+            })
+            .collect(),
+        album_uris: a.albums_current().map(|u| u.to_string()).collect(),
+        single_uris: a.singles_current().map(|u| u.to_string()).collect(),
+        compilation_uris: a.compilations_current().map(|u| u.to_string()).collect(),
+        appears_on_album_uris: a
+            .appears_on_albums_current()
+            .map(|u| u.to_string())
+            .collect(),
+        external_ids: a
+            .external_ids
+            .iter()
+            .map(|e| ExternalIdDto {
+                external_type: e.external_type.clone(),
+                id: e.id.clone(),
+            })
+            .collect(),
+        portraits: a
+            .portraits
+            .iter()
+            .map(|img| ImageDto {
+                file_id: img.id.to_string(),
+                size: format!("{:?}", img.size),
+                width: img.width,
+                height: img.height,
+            })
+            .collect(),
+        biographies: a
+            .biographies
+            .iter()
+            .map(|b| BiographyDto {
+                text: b.text.clone(),
+                portraits: b
+                    .portraits
+                    .iter()
+                    .map(|img| ImageDto {
+                        file_id: img.id.to_string(),
+                        size: format!("{:?}", img.size),
+                        width: img.width,
+                        height: img.height,
+                    })
+                    .collect(),
+            })
+            .collect(),
+        activity_periods: a
+            .activity_periods
+            .iter()
+            .map(|p| match p {
+                librespot_metadata::artist::ActivityPeriod::Timespan {
+                    start_year,
+                    end_year,
+                } => ActivityPeriodDto::Timespan {
+                    start_year: *start_year,
+                    end_year: *end_year,
+                },
+                librespot_metadata::artist::ActivityPeriod::Decade(d) => {
+                    ActivityPeriodDto::Decade { decade: *d }
+                }
+            })
+            .collect(),
+        related_artist_uris: a.related.iter().map(|r| r.id.to_string()).collect(),
+        is_portrait_album_cover: a.is_portrait_album_cover,
+    }
+}
+
 // ── Playlist DTO ──────────────────────────────────────────────────────────────
 
 #[derive(Debug, Serialize)]
@@ -442,6 +566,8 @@ pub enum MetadataOutput {
     Episode(EpisodeDto),
     #[serde(rename = "show")]
     Show(ShowDto),
+    #[serde(rename = "artist")]
+    Artist(FullArtistDto),
 }
 
 // ── Public fetch entry point ──────────────────────────────────────────────────
@@ -523,6 +649,19 @@ pub async fn fetch_metadata(
                 })?;
             info!("Fetched show: {}", show.name);
             Ok(MetadataOutput::Show(show_to_dto(&show)))
+        }
+        "artist" => {
+            let artist = librespot_metadata::artist::Artist::get(session, &uri)
+                .await
+                .map_err(|e| {
+                    CliError::with_source(
+                        ExitCode::ApiError,
+                        format!("Failed to fetch artist metadata: {e}"),
+                        e.into(),
+                    )
+                })?;
+            info!("Fetched artist: {}", artist.name);
+            Ok(MetadataOutput::Artist(artist_full_to_dto(&artist)))
         }
         other => Err(CliError::new(
             ExitCode::InvalidInput,
