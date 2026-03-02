@@ -264,7 +264,7 @@ async fn album_to_dto(
 ) -> AlbumDto {
     let mut tracks = Vec::new();
     for track_uri in a.tracks() {
-        match librespot_metadata::track::Track::get(session, &track_uri).await {
+        match librespot_metadata::track::Track::get(session, track_uri).await {
             Ok(t) => tracks.push(track_to_dto(&t)),
             Err(e) => warn!("Failed to fetch track {}: {e}", track_uri),
         }
