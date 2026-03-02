@@ -29,8 +29,8 @@
           inherit version;
           src = ./.;
           cargoLock.lockFile = ./Cargo.lock;
-          nativeBuildInputs = with pkgs; [ pkg-config cmake ];
-          buildInputs = with pkgs; [ openssl ];
+          nativeBuildInputs = with pkgs; [ pkg-config cmake perl ];
+          buildInputs = [];
           meta = {
             description = "Minimal Spotify CLI via librespot";
             mainProgram = "fetching-cli";
@@ -42,8 +42,8 @@
             (rust-bin.stable.latest.default)
             rust-analyzer
             pkg-config
-            openssl
             cmake
+            perl
             cargo-edit
             cargo-watch
           ];
