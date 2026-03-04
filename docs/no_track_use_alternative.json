@@ -1,0 +1,74 @@
+{
+  "type": "track",
+  "uri": "spotify:track:5qWqoZ8Cy6usKrSR5O0hUd",
+  "name": "7-Hour-Drive",
+  "album": {
+    "uri": "spotify:album:2moJkIdXsBQBpBVJiu2IVR",
+    "name": "Close To The Glass",
+    "artists": [
+      {
+        "uri": "spotify:artist:1o4xLcugkCtDDOw7POAMha",
+        "name": "The Notwist"
+      }
+    ],
+    "covers": [
+      {
+        "file_id": "ab67616d00001e029baea8de9d0158369ec3bc3e",
+        "size": "DEFAULT",
+        "width": 300,
+        "height": 300
+      },
+      {
+        "file_id": "ab67616d000048519baea8de9d0158369ec3bc3e",
+        "size": "SMALL",
+        "width": 64,
+        "height": 64
+      },
+      {
+        "file_id": "ab67616d0000b2739baea8de9d0158369ec3bc3e",
+        "size": "LARGE",
+        "width": 640,
+        "height": 640
+      }
+    ],
+    "date": "2014-01-01 0:00:00.0 +00:00:00",
+    "label": "City Slang",
+    "external_ids": []
+  },
+  "artists": [
+    {
+      "uri": "spotify:artist:1o4xLcugkCtDDOw7POAMha",
+      "name": "The Notwist"
+    }
+  ],
+  "artists_with_role": [
+    {
+      "uri": "spotify:artist:1o4xLcugkCtDDOw7POAMha",
+      "name": "The Notwist",
+      "role": "ARTIST_ROLE_MAIN_ARTIST"
+    }
+  ],
+  "number": 7,
+  "disc_number": 1,
+  "duration_ms": 237969,
+  "popularity": 0,
+  "is_explicit": false,
+  "external_ids": [
+    {
+      "external_type": "isrc",
+      "id": "DED621401102"
+    }
+  ],
+  "files": [],
+  "previews": [],
+  "alternatives": [
+    "spotify:track:3lAREj0uCz1MOE00H4r2V3"
+  ],
+  "tags": [],
+  "has_lyrics": true,
+  "language_of_performance": [
+    "en"
+  ],
+  "original_title": "7-Hour-Drive",
+  "version_title": ""
+}
