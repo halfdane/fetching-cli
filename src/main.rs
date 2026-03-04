@@ -1,6 +1,6 @@
 //! `fetching-cli` — minimal self-contained Spotify CLI via librespot.
 //!
-//! All business output (metadata JSON, audio data) goes to **stdout**.
+//! All business output (metadata JSON, audio data) goes to **stdout** or a file (`-o`).
 //! All logging goes to **stderr**.
 //!
 //! # Usage
@@ -8,18 +8,19 @@
 //! ```text
 //! fetching-cli
 //!     Interactive: runs the browser OAuth flow and stores credentials to
-//!     ~/.config/fetching-cli/credentials.json.
+//!     ~/.config/fetching-cli/credentials.json. Subsequent runs reuse and
+//!     auto-refresh stored credentials.
 //!
 //! fetching-cli <spotify-uri-or-url>
-//!     Fetch metadata JSON. Credentials are loaded, refreshed, or acquired
-//!     automatically.
+//!     Fetch metadata JSON.
 //!
-//! fetching-cli <spotify-uri-or-url> <file-id>
-//! fetching-cli <file-id> <spotify-uri-or-url>
+//! fetching-cli <spotify-uri-or-url> <file-id> [-o <path>]
+//! fetching-cli <file-id> <spotify-uri-or-url> [-o <path>]
 //!     Download audio. Argument order doesn't matter.
+//!     Writes to stdout by default; use -o to write to a file.
 //!
-//! To re-authenticate, delete ~/.config/fetching-cli/credentials.json and
-//! run without arguments.
+//! To re-authenticate, delete ~/.config/fetching-cli/credentials.json
+//! and run without arguments.
 //! ```
 
 mod audio;
@@ -44,13 +45,20 @@ use error::{CliError, ExitCode};
     version
 )]
 struct Cli {
-    /// One or two positional arguments:
-    /// 
-    ///   (none)                — interactive auth flow
-    ///   <spotify-uri-or-url>  — fetch metadata
-    ///   <spotify-uri-or-url> <file-id>
-    ///   <file-id> <spotify-uri-or-url> — download audio (order doesn't matter)
-    #[arg(num_args = 0..=2)]
+    /// Write audio output to this file instead of stdout.
+    /// Only used when downloading audio (two positional arguments).
+    #[arg(long, short, value_name = "PATH")]
+    output: Option<std::path::PathBuf>,
+
+    #[arg(
+        num_args = 0..=2,
+        value_name = "TARGET",
+        help = "What to fetch:\n  \
+                (none)                       interactive auth flow or validate credentials\n  \
+                <spotify-uri-or-url>         fetch metadata\n  \
+                <spotify-uri-or-url> <id>    download audio\n  \
+                <id> <spotify-uri-or-url>    download audio (order doesn't matter)"
+    )]
     targets: Vec<String>,
 }
 
@@ -108,7 +116,7 @@ async fn run(cli: Cli) -> Result<(), CliError> {
             match (classify(a)?, classify(b)?) {
                 (ArgKind::SpotifyTarget(uri), ArgKind::FileId(file_id))
                 | (ArgKind::FileId(file_id), ArgKind::SpotifyTarget(uri)) => {
-                    cmd_fetch_audio(&uri, &file_id).await
+                    cmd_fetch_audio(&uri, &file_id, cli.output.as_deref()).await
                 }
                 (ArgKind::SpotifyTarget(_), ArgKind::SpotifyTarget(_)) => Err(CliError::new(
                     ExitCode::InvalidInput,
@@ -154,11 +162,11 @@ async fn cmd_fetch_metadata(uri: &str) -> Result<(), CliError> {
     print_json(&output)
 }
 
-async fn cmd_fetch_audio(uri: &str, file_id: &str) -> Result<(), CliError> {
+async fn cmd_fetch_audio(uri: &str, file_id: &str, output: Option<&std::path::Path>) -> Result<(), CliError> {
     info!("Fetch audio mode: file_id={file_id}, track_uri={uri}");
     let creds = ensure_credentials().await?;
     let session = session::create_session(&creds).await?;
-    audio::fetch_audio(&session, file_id, uri).await
+    audio::fetch_audio(&session, file_id, uri, output).await
 }
 
 /// Load credentials from disk, refreshing if expired, running auth if absent.

@@ -79,6 +79,7 @@ pub async fn fetch_audio(
     session: &Session,
     file_id_hex: &str,
     track_uri_str: &str,
+    output: Option<&std::path::Path>,
 ) -> Result<(), CliError> {
     info!("Fetching audio for file_id={file_id_hex}, track_uri={track_uri_str}");
 
@@ -201,10 +202,25 @@ pub async fn fetch_audio(
         })?;
     }
 
-    // Stream decrypted audio to stdout
-    info!("Streaming audio to stdout ({format:?})");
-    let bytes_written = copy_to_stdout(&mut decrypted)?;
-    info!("Wrote {bytes_written} bytes to stdout");
+    // Stream decrypted audio to output destination
+    let bytes_written = match output {
+        Some(path) => {
+            info!("Writing audio to {} ({format:?})", path.display());
+            let mut file = std::fs::File::create(path).map_err(|e| {
+                CliError::with_source(
+                    ExitCode::AudioDownloadError,
+                    format!("Failed to create output file '{}': {e}", path.display()),
+                    e.into(),
+                )
+            })?;
+            copy_to_writer(&mut decrypted, &mut file)?
+        }
+        None => {
+            info!("Streaming audio to stdout ({format:?})");
+            copy_to_writer(&mut decrypted, &mut io::stdout().lock())?
+        }
+    };
+    info!("Wrote {bytes_written} bytes");
 
     Ok(())
 }
@@ -233,9 +249,7 @@ fn parse_file_id(hex_str: &str) -> Result<FileId, CliError> {
     Ok(FileId(arr))
 }
 
-fn copy_to_stdout(reader: &mut dyn Read) -> Result<u64, CliError> {
-    let stdout = io::stdout();
-    let mut out = stdout.lock();
+fn copy_to_writer(reader: &mut dyn Read, writer: &mut dyn Write) -> Result<u64, CliError> {
     let mut buf = [0u8; COPY_BUF_SIZE];
     let mut total: u64 = 0;
 
@@ -252,20 +266,20 @@ fn copy_to_stdout(reader: &mut dyn Read) -> Result<u64, CliError> {
                 ));
             }
         };
-        out.write_all(&buf[..n]).map_err(|e| {
+        writer.write_all(&buf[..n]).map_err(|e| {
             CliError::with_source(
                 ExitCode::AudioDownloadError,
-                format!("Write error to stdout: {e}"),
+                format!("Write error: {e}"),
                 e.into(),
             )
         })?;
         total += n as u64;
     }
 
-    out.flush().map_err(|e| {
+    writer.flush().map_err(|e| {
         CliError::with_source(
             ExitCode::AudioDownloadError,
-            format!("Failed to flush stdout: {e}"),
+            format!("Failed to flush output: {e}"),
             e.into(),
         )
     })?;

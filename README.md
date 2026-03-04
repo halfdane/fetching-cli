@@ -2,58 +2,75 @@
 
 Minimal self-contained CLI for Spotify via [librespot](https://github.com/librespot-org/librespot).
 
-All business output (metadata JSON, audio data) goes to **stdout**.  
+All business output (metadata JSON, audio data) goes to **stdout** (or a file via `-o`).
 All logging goes to **stderr**.
 
-## Commands
-
-### `auth` — Initial OAuth flow
-
-Opens the default browser for Spotify authorization and prints credentials to stdout.
+## Usage
 
 ```sh
-fetching-cli auth > creds.json
+fetching-cli [OPTIONS] [TARGET]...
 ```
 
-### `reauth` — Refresh token
+### Authentication
 
-Refreshes an expired access token using the stored refresh token.
+On first run without arguments (in an interactive terminal), the browser OAuth flow starts
+automatically and stores credentials to `~/.config/fetching-cli/credentials.json`.
+Subsequent invocations reuse stored credentials, refreshing silently when expired.
 
 ```sh
-fetching-cli reauth --credentials creds.json > creds.json
+# First run — opens browser, stores credentials
+fetching-cli
 ```
 
-### `fetch` — Metadata
+To re-authenticate (e.g. to switch accounts), delete the credentials file and run again:
 
-Fetch metadata for any Spotify URI or URL. Supports tracks, albums, playlists, episodes, shows, and artists.
+```sh
+rm ~/.config/fetching-cli/credentials.json
+fetching-cli
+```
+
+### Metadata
+
+Fetch metadata for any Spotify URI or URL. Returns JSON.
+Supports tracks, albums, playlists, episodes, shows, and artists.
 
 ```sh
 # By Spotify URI
-fetching-cli fetch --credentials creds.json spotify:album:7FwAtuhhWivxvK4aPgyyUD
+fetching-cli spotify:album:7FwAtuhhWivxvK4aPgyyUD
 
 # By URL
-fetching-cli fetch --credentials creds.json 'https://open.spotify.com/album/7FwAtuhhWivxvK4aPgyyUD'
+fetching-cli 'https://open.spotify.com/album/7FwAtuhhWivxvK4aPgyyUD'
 ```
 
 See [example JSON outputs](docs/) for each metadata type.
 
-### `fetch` — Audio download
+### Audio download
 
-Download decrypted audio by providing a file ID (from metadata) and the owning track URI.
+Download decrypted audio by providing both a Spotify URI and a file ID (from the metadata
+`files` array). Argument order does not matter.
 
 ```sh
-fetching-cli fetch \
-  --credentials creds.json \
-  --track-uri spotify:track:6rqhFgbbKwnb9MLmUQDhG6 \
-  abc123def456... > track.ogg
+# Stream to stdout
+fetching-cli spotify:track:6rqhFgbbKwnb9MLmUQDhG6 abc123def456... > track.ogg
+
+# Write directly to a file
+fetching-cli spotify:track:6rqhFgbbKwnb9MLmUQDhG6 abc123def456... -o track.ogg
+
+# Either argument order works
+fetching-cli abc123def456... spotify:track:6rqhFgbbKwnb9MLmUQDhG6 -o track.ogg
 ```
 
-## Credentials
+> **Note:** Only `OGG_VORBIS_*` and `MP3_*` file IDs produce output compatible with
+> standard media players (VLC, ffmpeg, Navidrome, etc.). `AAC_*` and `MP4_*` formats
+> use a proprietary Spotify container and will trigger a warning.
 
-The `--credentials` flag accepts:
-- **Inline JSON**: `--credentials '{"access_token":"...","refresh_token":"...","expires_at":123}'`
-- **File path**: `--credentials creds.json`
-- **Stdin** (when `--credentials` is omitted)
+## Options
+
+| Flag | Description |
+|------|-------------|
+| `-o, --output <PATH>` | Write audio to a file instead of stdout |
+| `-h, --help` | Print help |
+| `-V, --version` | Print version |
 
 ## Exit Codes
 
@@ -68,15 +85,19 @@ The `--credentials` flag accepts:
 | 6 | Audio download error |
 | 7 | Serialization error |
 
-Errors are emitted as JSON to stderr.
+Errors are emitted as JSON to stderr:
+
+```json
+{"error":{"code":2,"message":"..."}}
+```
 
 ## Logging
 
-Control log verbosity via the `RUST_LOG` environment variable:
+Control log verbosity via `RUST_LOG` (default: `info`):
 
 ```sh
-RUST_LOG=debug fetching-cli auth
-RUST_LOG=warn fetching-cli fetch --credentials creds.json spotify:track:...
+RUST_LOG=debug fetching-cli spotify:track:...
+RUST_LOG=warn  fetching-cli spotify:track:... abc123... -o track.ogg
 ```
 
 ## Development
