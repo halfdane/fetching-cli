@@ -1,6 +1,6 @@
 [package]
 name = "fetching-cli"
-version = "0.1.2"
+version = "0.1.3"
 edition = "2021"
 description = "Minimal self-contained CLI for Spotify via librespot"
 
