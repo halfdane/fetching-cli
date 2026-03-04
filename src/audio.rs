@@ -58,20 +58,10 @@ const FORMAT_PREFERENCE: &[AudioFileFormat] = &[
 fn find_format_for_file_id(
     file_id: &FileId,
     files: &AudioFiles,
-    previews: Option<&AudioFiles>,
 ) -> Option<AudioFileFormat> {
-    // Check primary files
     for (fmt, id) in &files.0 {
         if id == file_id {
             return Some(*fmt);
-        }
-    }
-    // Check previews
-    if let Some(previews) = previews {
-        for (fmt, id) in &previews.0 {
-            if id == file_id {
-                return Some(*fmt);
-            }
         }
     }
     None
@@ -127,15 +117,41 @@ pub async fn fetch_audio(
             )
         })?;
 
-    let format = find_format_for_file_id(&file_id, &audio_item.files, None).unwrap_or_else(|| {
-        warn!(
-            "Could not determine format for file_id {file_id_hex} from AudioItem; \
-                 assuming OGG_VORBIS_320"
-        );
-        AudioFileFormat::OGG_VORBIS_320
-    });
+    let format = match find_format_for_file_id(&file_id, &audio_item.files) {
+        Some(fmt) => fmt,
+        None => {
+            return Err(CliError::new(
+                ExitCode::InvalidInput,
+                format!(
+                    "File ID {file_id_hex} was not found in the track's audio files. \
+                     Note: preview file IDs are not supported for audio download."
+                ),
+            ));
+        }
+    };
 
     info!("Resolved format: {format:?} for file_id {file_id_hex}");
+
+    // AAC and MP4 variants use a proprietary Spotify container that is not
+    // compatible with standard media players (VLC, ffmpeg, Navidrome, etc.).
+    // OGG Vorbis and MP3 formats produce standard-compatible output.
+    let is_aac_or_mp4 = matches!(
+        format,
+        AudioFileFormat::AAC_24
+            | AudioFileFormat::AAC_48
+            | AudioFileFormat::AAC_160
+            | AudioFileFormat::AAC_320
+            | AudioFileFormat::XHE_AAC_24
+            | AudioFileFormat::XHE_AAC_16
+            | AudioFileFormat::XHE_AAC_12
+            | AudioFileFormat::MP4_128
+    );
+    if is_aac_or_mp4 {
+        warn!(
+            "Format {format:?} uses a proprietary Spotify container and will not be playable \
+             by standard media players. Choose an OGG_VORBIS_* or MP3_* file ID instead."
+        );
+    }
 
     // Open the encrypted audio stream
     debug!("Opening audio file stream");
