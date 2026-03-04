@@ -55,10 +55,7 @@ const FORMAT_PREFERENCE: &[AudioFileFormat] = &[
 ///
 /// When fetching by raw file ID we don't know the format upfront. We resolve
 /// the track/episode's `AudioItem` and look up the format from its file maps.
-fn find_format_for_file_id(
-    file_id: &FileId,
-    files: &AudioFiles,
-) -> Option<AudioFileFormat> {
+fn find_format_for_file_id(file_id: &FileId, files: &AudioFiles) -> Option<AudioFileFormat> {
     for (fmt, id) in &files.0 {
         if id == file_id {
             return Some(*fmt);

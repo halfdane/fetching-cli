@@ -103,31 +103,27 @@ async fn run(cli: Cli) -> Result<(), CliError> {
                 ))
             }
         }
-        [a] => {
-            match classify(a)? {
-                ArgKind::SpotifyTarget(uri) => cmd_fetch_metadata(&uri).await,
-                ArgKind::FileId(_) => Err(CliError::new(
-                    ExitCode::InvalidInput,
-                    format!("'{a}' looks like a file ID but no Spotify URI/URL was given."),
-                )),
+        [a] => match classify(a)? {
+            ArgKind::SpotifyTarget(uri) => cmd_fetch_metadata(&uri).await,
+            ArgKind::FileId(_) => Err(CliError::new(
+                ExitCode::InvalidInput,
+                format!("'{a}' looks like a file ID but no Spotify URI/URL was given."),
+            )),
+        },
+        [a, b] => match (classify(a)?, classify(b)?) {
+            (ArgKind::SpotifyTarget(uri), ArgKind::FileId(file_id))
+            | (ArgKind::FileId(file_id), ArgKind::SpotifyTarget(uri)) => {
+                cmd_fetch_audio(&uri, &file_id, cli.output.as_deref()).await
             }
-        }
-        [a, b] => {
-            match (classify(a)?, classify(b)?) {
-                (ArgKind::SpotifyTarget(uri), ArgKind::FileId(file_id))
-                | (ArgKind::FileId(file_id), ArgKind::SpotifyTarget(uri)) => {
-                    cmd_fetch_audio(&uri, &file_id, cli.output.as_deref()).await
-                }
-                (ArgKind::SpotifyTarget(_), ArgKind::SpotifyTarget(_)) => Err(CliError::new(
-                    ExitCode::InvalidInput,
-                    "Two Spotify URIs/URLs given — expected a Spotify URI/URL and a file ID.",
-                )),
-                (ArgKind::FileId(_), ArgKind::FileId(_)) => Err(CliError::new(
-                    ExitCode::InvalidInput,
-                    "Two file IDs given — expected a Spotify URI/URL and a file ID.",
-                )),
-            }
-        }
+            (ArgKind::SpotifyTarget(_), ArgKind::SpotifyTarget(_)) => Err(CliError::new(
+                ExitCode::InvalidInput,
+                "Two Spotify URIs/URLs given — expected a Spotify URI/URL and a file ID.",
+            )),
+            (ArgKind::FileId(_), ArgKind::FileId(_)) => Err(CliError::new(
+                ExitCode::InvalidInput,
+                "Two file IDs given — expected a Spotify URI/URL and a file ID.",
+            )),
+        },
         _ => unreachable!("clap enforces num_args = 0..=2"),
     }
 }
@@ -162,7 +158,11 @@ async fn cmd_fetch_metadata(uri: &str) -> Result<(), CliError> {
     print_json(&output)
 }
 
-async fn cmd_fetch_audio(uri: &str, file_id: &str, output: Option<&std::path::Path>) -> Result<(), CliError> {
+async fn cmd_fetch_audio(
+    uri: &str,
+    file_id: &str,
+    output: Option<&std::path::Path>,
+) -> Result<(), CliError> {
     info!("Fetch audio mode: file_id={file_id}, track_uri={uri}");
     let creds = ensure_credentials().await?;
     let session = session::create_session(&creds).await?;
@@ -179,7 +179,10 @@ async fn ensure_credentials() -> Result<credentials::Credentials, CliError> {
 
     match credentials::load_stored()? {
         Some(creds) if !creds.is_expired() => {
-            info!("Using stored credentials (valid until {})", creds.expires_at);
+            info!(
+                "Using stored credentials (valid until {})",
+                creds.expires_at
+            );
             Ok(creds)
         }
         Some(creds) => {

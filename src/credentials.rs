@@ -77,7 +77,10 @@ pub fn save_to_path(path: &Path, creds: &Credentials) -> Result<(), CliError> {
         std::fs::create_dir_all(parent).map_err(|e| {
             CliError::with_source(
                 ExitCode::InvalidInput,
-                format!("Failed to create config directory '{}': {e}", parent.display()),
+                format!(
+                    "Failed to create config directory '{}': {e}",
+                    parent.display()
+                ),
                 e.into(),
             )
         })?;
@@ -147,7 +150,11 @@ mod tests {
     #[test]
     fn save_creates_parent_directories() {
         let dir = TempDir::new().unwrap();
-        let path = dir.path().join("nested").join("deep").join("credentials.json");
+        let path = dir
+            .path()
+            .join("nested")
+            .join("deep")
+            .join("credentials.json");
         save_to_path(&path, &sample_creds()).unwrap();
         assert!(path.exists());
     }
