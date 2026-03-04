@@ -14,8 +14,9 @@
 //!     Fetch metadata JSON. Credentials are loaded, refreshed, or acquired
 //!     automatically.
 //!
-//! fetching-cli --track-uri <uri> <file-id>
-//!     Download audio. Credentials are handled automatically.
+//! fetching-cli <spotify-uri-or-url> <file-id>
+//! fetching-cli <file-id> <spotify-uri-or-url>
+//!     Download audio. Argument order doesn't matter.
 //!
 //! To re-authenticate, delete ~/.config/fetching-cli/credentials.json and
 //! run without arguments.
@@ -43,14 +44,14 @@ use error::{CliError, ExitCode};
     version
 )]
 struct Cli {
-    /// For audio download: the owning track/episode URI
-    /// (e.g. `spotify:track:6rqhFgbbKwnb9MLmUQDhG6`).
-    /// When provided, <target> is treated as a file ID (hex).
-    #[arg(long)]
-    track_uri: Option<String>,
-
-    /// Spotify URI/URL (for metadata) or file ID hex (for audio when --track-uri is set).
-    target: Option<String>,
+    /// One or two positional arguments:
+    /// 
+    ///   (none)                — interactive auth flow
+    ///   <spotify-uri-or-url>  — fetch metadata
+    ///   <spotify-uri-or-url> <file-id>
+    ///   <file-id> <spotify-uri-or-url> — download audio (order doesn't matter)
+    #[arg(num_args = 0..=2)]
+    targets: Vec<String>,
 }
 
 // ── Main ──────────────────────────────────────────────────────────────────────
@@ -79,50 +80,85 @@ async fn main() {
 async fn run(cli: Cli) -> Result<(), CliError> {
     use std::io::IsTerminal;
 
-    let target = match cli.target {
-        Some(t) => t,
-        None => {
-            // No target given. In an interactive session, helpfully kick off
-            // the auth flow (first-run UX). In non-interactive contexts, fail
-            // fast — there's nothing useful we can do without a target.
+    match cli.targets.as_slice() {
+        [] => {
             if std::io::stdin().is_terminal() {
-                return cmd_auth();
+                // Ensure credentials (auth flow only happens if none are stored).
+                ensure_credentials().await?;
+                eprintln!("Authenticated. Pass a Spotify URI/URL to fetch metadata.");
+                Ok(())
+            } else {
+                Err(CliError::new(
+                    ExitCode::InvalidInput,
+                    "No target specified. Pass a Spotify URI/URL to fetch metadata, \
+                     or a Spotify URI/URL and a file ID to download audio.",
+                ))
             }
-            return Err(CliError::new(
-                ExitCode::InvalidInput,
-                "No target specified. Pass a Spotify URI/URL, or use --auth to authenticate.",
-            ));
         }
-    };
+        [a] => {
+            match classify(a)? {
+                ArgKind::SpotifyTarget(uri) => cmd_fetch_metadata(&uri).await,
+                ArgKind::FileId(_) => Err(CliError::new(
+                    ExitCode::InvalidInput,
+                    format!("'{a}' looks like a file ID but no Spotify URI/URL was given."),
+                )),
+            }
+        }
+        [a, b] => {
+            match (classify(a)?, classify(b)?) {
+                (ArgKind::SpotifyTarget(uri), ArgKind::FileId(file_id))
+                | (ArgKind::FileId(file_id), ArgKind::SpotifyTarget(uri)) => {
+                    cmd_fetch_audio(&uri, &file_id).await
+                }
+                (ArgKind::SpotifyTarget(_), ArgKind::SpotifyTarget(_)) => Err(CliError::new(
+                    ExitCode::InvalidInput,
+                    "Two Spotify URIs/URLs given — expected a Spotify URI/URL and a file ID.",
+                )),
+                (ArgKind::FileId(_), ArgKind::FileId(_)) => Err(CliError::new(
+                    ExitCode::InvalidInput,
+                    "Two file IDs given — expected a Spotify URI/URL and a file ID.",
+                )),
+            }
+        }
+        _ => unreachable!("clap enforces num_args = 0..=2"),
+    }
+}
 
-    cmd_fetch(cli.track_uri.as_deref(), &target).await
+// ── Argument classification ───────────────────────────────────────────────────
+
+enum ArgKind {
+    SpotifyTarget(String),
+    FileId(String),
+}
+
+fn classify(arg: &str) -> Result<ArgKind, CliError> {
+    if arg.starts_with("spotify:") || arg.starts_with("https://") || arg.starts_with("http://") {
+        Ok(ArgKind::SpotifyTarget(arg.to_owned()))
+    } else if !arg.is_empty() && arg.chars().all(|c| c.is_ascii_hexdigit()) {
+        Ok(ArgKind::FileId(arg.to_owned()))
+    } else {
+        Err(CliError::new(
+            ExitCode::InvalidInput,
+            format!("Unrecognised argument '{arg}': expected a Spotify URI/URL or a hex file ID."),
+        ))
+    }
 }
 
 // ── Command implementations ───────────────────────────────────────────────────
 
-fn cmd_auth() -> Result<(), CliError> {
-    info!("Running auth");
-    let creds = auth::auth()?;
-    credentials::save_stored(&creds)?;
-    info!("Credentials stored to {}", credentials::credentials_path()?.display());
-    Ok(())
-}
-
-async fn cmd_fetch(track_uri: Option<&str>, target: &str) -> Result<(), CliError> {
+async fn cmd_fetch_metadata(uri: &str) -> Result<(), CliError> {
+    info!("Fetch metadata mode: target={uri}");
     let creds = ensure_credentials().await?;
     let session = session::create_session(&creds).await?;
+    let output = metadata::fetch_metadata(&session, uri).await?;
+    print_json(&output)
+}
 
-    match track_uri {
-        Some(uri) => {
-            info!("Fetch audio mode: file_id={target}, track_uri={uri}");
-            audio::fetch_audio(&session, target, uri).await
-        }
-        None => {
-            info!("Fetch metadata mode: target={target}");
-            let output = metadata::fetch_metadata(&session, target).await?;
-            print_json(&output)
-        }
-    }
+async fn cmd_fetch_audio(uri: &str, file_id: &str) -> Result<(), CliError> {
+    info!("Fetch audio mode: file_id={file_id}, track_uri={uri}");
+    let creds = ensure_credentials().await?;
+    let session = session::create_session(&creds).await?;
+    audio::fetch_audio(&session, file_id, uri).await
 }
 
 /// Load credentials from disk, refreshing if expired, running auth if absent.
@@ -148,7 +184,7 @@ async fn ensure_credentials() -> Result<credentials::Credentials, CliError> {
             if !std::io::stdin().is_terminal() {
                 return Err(CliError::new(
                     ExitCode::AuthError,
-                    "No stored credentials found. Run `fetching-cli --auth` to authenticate.",
+                    "No stored credentials found. Run fetching-cli interactively to authenticate.",
                 ));
             }
             info!("No stored credentials found, starting OAuth flow");
